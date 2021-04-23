@@ -1,0 +1,1 @@
+document.querySelector("#update").textContent = document.lastModified;

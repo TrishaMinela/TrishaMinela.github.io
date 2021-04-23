@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;300;500&display=swap');
+
+html {
+    background-color: #1F271B;
+}
+
+body {
+    background-color: #F6FFD6;
+    max-width: 65%;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 3em;
+}
+
+header {
+    background-color: #E0FF70;
+    padding: 1em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+img {
+    width: 10em;
+    height:auto;
+    float: right;
+    margin-top: .8em;
+    margin-right: .5em;
+    box-shadow: -.3em .3em .5em  #1F271B;
+}
+
+h1 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 3.5em;
+    padding-left: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 300;
+    padding-left: 1em;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 1.5em;
+    margin-top: 0;
+}
+
+li {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin-left: 2em;
+}
+
+footer {
+    background-color: #E0FF70;
+    padding: 1em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    line-height: .5em;
+    padding-top: 2em;
+}
+
+footer, footer p {
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
