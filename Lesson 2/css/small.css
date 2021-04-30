@@ -1,0 +1,57 @@
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+}
+
+html {
+    background-color: #FCFDD8;
+    line-height: 1;
+}
+
+header {
+    background-color: #495D32;
+}
+
+div {
+    background-color: #C1701F;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    display: grid;
+}
+
+section div {
+    padding: 0.05em 0em 0.5em 1em;
+}
+
+main section {
+    margin: 1rem;
+    border: 1px solid #495D32;
+    padding: 0 1rem;
+    background-color: beige;
+}
+
+img {
+    width: 15em;
+    height:auto;
+    margin: 0 auto;
+}
+
+h1 h2 h4 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+h1, h4 {
+    color: white;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
