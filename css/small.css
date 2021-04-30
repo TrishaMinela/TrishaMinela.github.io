@@ -13,23 +13,17 @@ body {
 header {
     background-color: #E0FF70;
     padding: 1em;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
 }
 
 img {
     width: 10em;
     height:auto;
-    float: right;
-    margin-top: .8em;
-    margin-right: .5em;
-    box-shadow: -.3em .3em .5em  #1F271B;
 }
 
 h1 {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 500;
-    font-size: 3.5em;
+    font-size: 2.5em;
     padding-left: .5em;
     margin-top: .5em;
     margin-bottom: .5em;
@@ -38,6 +32,7 @@ h1 {
 h2 {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 300;
+    font-size: 1.5em;
     padding-left: 1em;
     margin-bottom: 0;
 }
@@ -56,9 +51,7 @@ li {
 footer {
     background-color: #E0FF70;
     padding: 1em;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    line-height: .5em;
+    line-height: 1.5em;
     padding-top: 2em;
 }
 
