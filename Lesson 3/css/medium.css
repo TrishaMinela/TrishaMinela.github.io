@@ -12,4 +12,9 @@
     border: 5px solid  #2A2A14;
 }
 
+img {
+    width: 13em;
+    height:auto;
+    margin: 1em auto;
+}
 }
