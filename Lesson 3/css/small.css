@@ -93,4 +93,8 @@ nav a:hover {
 	color: #2A2A14;
 }
 
-
+table th td, .color {
+    width: 500px;
+    border: 1em solid  #2A2A14;
+    border-collapse: collapse;
+}
