@@ -10,9 +10,6 @@ main {
     padding: 3em;
 }
 
-header {
-    padding: 1em;
-}
 
 nav {
     background-color: #2A2A14;
@@ -33,9 +30,8 @@ img {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    padding: 0;
+    display: block;
+    padding: .5em;
     border: 5px solid  #2A2A14;
 }
 
