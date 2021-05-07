@@ -83,7 +83,7 @@ p {
 nav ul li {
 	display: block;
 	text-align: center;
-	padding: 0.75rem;
+    padding: 0.5em;
 	text-decoration: none;
     list-style-type: none;
 }
@@ -94,10 +94,10 @@ nav a:hover {
 }
 
 
-    table, th, td, .color{
+    table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
-        padding: .5em;
+        padding: 1em;
 }
 
 .Yellowgreen {
@@ -119,4 +119,36 @@ nav a:hover {
 .Champagnepink {
     background-color: #E9D2C4;
     color: #000000;
+}
+
+.one, .two, .three, .four, .five, .six{
+    font-family: 'Antonio', sans-serif;
+}
+.seven {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 16px;
+}
+
+.one {
+    font-size: 50px;
+}
+
+.two {
+    font-size: 25px;
+}
+
+.three {
+    font-size: 20px;
+}
+
+.four {
+    font-size: 30px;
+}
+
+.five {
+    font-size: 25px;
+}
+
+.six {
+    font-size: 20px;
 }
