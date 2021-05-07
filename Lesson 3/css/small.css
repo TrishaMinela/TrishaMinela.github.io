@@ -93,8 +93,30 @@ nav a:hover {
 	color: #2A2A14;
 }
 
-table th td, .color {
-    width: 500px;
-    border: 1em solid  #2A2A14;
-    border-collapse: collapse;
+
+    table, th, td, .color{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: .5em;
+}
+
+.Yellowgreen {
+    background-color: #A3D45E;
+    color: #000000;
+}
+
+.Pinetree {
+    background-color: #2A2A14;
+    color: #E9D2C4;
+}
+
+.Flame {
+    background-color: #E45011;
+    color: #000000;
+
+}
+
+.Champagnepink {
+    background-color: #E9D2C4;
+    color: #000000;
 }
