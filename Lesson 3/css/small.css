@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 
-    table, th, td {
+table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
         padding: 1em;
@@ -151,4 +151,8 @@ nav a:hover {
 
 .six {
     font-size: 20px;
+}
+
+.typography, th, td{
+        padding: 0;
 }

@@ -17,4 +17,11 @@ img {
     height:auto;
     margin: 1em auto;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+}
+
 }
