@@ -127,30 +127,37 @@ table, th, td {
 .seven {
     font-family: 'Source Serif Pro', serif;
     font-size: 16px;
+    color: #000000;
 }
 
 .one {
     font-size: 50px;
+    color: #2A2A14;
 }
 
 .two {
     font-size: 25px;
+    color: #E9D2C4	;
 }
 
 .three {
     font-size: 20px;
+    color: #2A2A14;
 }
 
 .four {
     font-size: 30px;
+    color: #E45011;
 }
 
 .five {
     font-size: 25px;
+    color: #2A2A14;
 }
 
 .six {
     font-size: 20px;
+    color: #2A2A14;
 }
 
 .typography, th, td{
