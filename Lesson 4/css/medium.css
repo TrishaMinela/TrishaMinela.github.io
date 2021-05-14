@@ -1,0 +1,24 @@
+@media only screen and (min-width: 35em) {
+
+    .hamburger li:first-child {
+        display: none;
+    }
+    
+    .hamburger {
+		display: flex;
+	}
+	.hamburger li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+
+	.hamburger a {
+		text-align: center;
+	}
+    
+    nav ul li a {
+        border: none;
+        border-right: 1px solid #eb6e38;
+        padding: .8rem 1rem;
+    }
+    }
