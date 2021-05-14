@@ -17,12 +17,14 @@ nav ul {
     margin: 0;
 }
 
-a {
-    color: #E45011;
+header {
+    display: flex;
+	align-items:center;
+	justify-content:center;
 }
 
 header img {
-	width: 120px;
+	width: 100px;
 	height: auto;
 }
 
@@ -100,6 +102,7 @@ nav ul li a {
     padding: 1.5rem 2%;
     text-decoration: none;
     border-top: 1px solid #eb6e38;
+    color: #E45011;
 }
 
 .ham {
@@ -113,6 +116,19 @@ nav ul li.current a {
 
 nav ul li a:hover {
     background-color: #bf3900;
+    color: #2A2A14;
+}
+
+.pagecontent {
+    padding: 20px;
+    border: 2px solid #2A2A14;
+    background-color: #9AD04E;
+    margin: 5px;
+    display: block;
+}
+
+.pagecontent a {
+    text-decoration: none;
     color: #2A2A14;
 }
 

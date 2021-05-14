@@ -21,4 +21,9 @@
         border-right: 1px solid #eb6e38;
         padding: .8rem 1rem;
     }
+
+    header img {
+        width: 150px;
+        height: auto;
+    }
     }
