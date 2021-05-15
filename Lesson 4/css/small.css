@@ -75,8 +75,11 @@ nav ul li a {
     border-top: none;
 }
 
-nav ul li.current a {
+nav ul li.current {
     background-color: #8c2a00; 
+}
+
+nav ul li.current a {
     color: #E9D2C4;
 }
 
