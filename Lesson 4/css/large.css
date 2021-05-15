@@ -25,4 +25,13 @@
         padding: .6rem 1rem;
     }
 
+    footer, .pagecontent{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    footer {
+        max-width: 940px;
+    }
+
 }

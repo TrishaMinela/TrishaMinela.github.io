@@ -88,6 +88,10 @@ nav ul li a:hover {
     color: #2A2A14;
 }
 
+h2 {
+    text-align: center;
+}
+
 .pagecontent {
     padding: 20px;
     border: 2px solid #2A2A14;
