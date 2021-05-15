@@ -1,5 +1,16 @@
 @media only screen and (min-width: 35em) {
 
+    header img {
+        width: 150px;
+        height: auto;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid #eb6e38;
+        padding: .8rem 1rem;
+    }
+
     .hamburger li:first-child {
         display: none;
     }
@@ -16,14 +27,4 @@
 		text-align: center;
 	}
     
-    nav ul li a {
-        border: none;
-        border-right: 1px solid #eb6e38;
-        padding: .8rem 1rem;
-    }
-
-    header img {
-        width: 150px;
-        height: auto;
-    }
     }

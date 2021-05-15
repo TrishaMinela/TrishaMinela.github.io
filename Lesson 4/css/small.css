@@ -8,15 +8,6 @@ main {
     padding: 3em;
 }
 
-nav ul {
-    background-color: #2A2A14;
-    font-family: 'Antonio', sans-serif;
-    font-size: 25px;
-    padding: 0;
-    color: #E45011;
-    margin: 0;
-}
-
 header {
     display: flex;
 	align-items:center;
@@ -46,31 +37,20 @@ header img {
         font-size: .9rem;
 }
 
-
-h1 {
-    font-family: 'Antonio', sans-serif;
-    font-size: 30px;
-}
-
-h2 {
+nav ul {
+    background-color: #2A2A14;
     font-family: 'Antonio', sans-serif;
     font-size: 25px;
+    margin: 0;
 }
 
-h3 {
-    font-family: 'Antonio', sans-serif;
-    font-size: 20px;
-}
-
-p {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 16px;
-    color: #000000;
-}
-
-nav ul li {
-	text-align: center;
-	text-decoration: none;
+nav ul li a {
+    padding-left: 0;
+    display: block;
+    padding: 1.5rem 2%;
+    text-decoration: none;
+    border-top: 1px solid #eb6e38;
+    color: #E45011;
 }
 
 .hamburger li:first-child {
@@ -87,16 +67,6 @@ nav ul li {
 
 .responsive li {
     display: block;
-}
-
-
-nav ul li a {
-    padding-left: 0;
-    display: block;
-    padding: 1.5rem 2%;
-    text-decoration: none;
-    border-top: 1px solid #eb6e38;
-    color: #E45011;
 }
 
 .ham {
@@ -116,7 +86,7 @@ nav ul li a:hover {
 .pagecontent {
     padding: 20px;
     border: 2px solid #2A2A14;
-    background-color: #9AD04E;
+    background-color: #b1db76;
     margin: 5px;
     display: block;
 }
@@ -124,6 +94,9 @@ nav ul li a:hover {
 .pagecontent a {
     text-decoration: none;
     color: #2A2A14;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 footer, footer p {

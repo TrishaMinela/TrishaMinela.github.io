@@ -4,10 +4,18 @@ function toggleMenu() {
 
 let date = new Date();
 let year = date.getFullYear();
-document.querySelector("#year").textContent = year;
-
-
+let day = date.getDay();
 let month = date.getMonth()+1;
-let day = date.getDate();
+let daynumber = date.getDate();
+document.querySelector("#year").textContent = year;
 let daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-document.querySelector("#current").textContent =  daylist[day] + ", " + day + " " + month + " " + year;
+let nameday = daylist[day];
+let monthlist = ["January", "February", "March", "April" ,"May", "June", "July", "August", "September", "October", "November", "December"]
+let monthname = monthlist[month];
+document.querySelector("#current").textContent =  `${nameday}, ${daynumber} ${monthname} ${year}`;
+
+
+
+
+
+
