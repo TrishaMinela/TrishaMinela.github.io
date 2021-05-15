@@ -13,7 +13,7 @@
     nav ul li {
         border-right: 1px solid #eb6e38;
     }
-    
+
     nav ul li:hover {
         background-color: #bf3900;
         color: #2A2A14;
@@ -34,5 +34,9 @@
 	.hamburger a {
 		text-align: center;
 	}
+
+    .pagecontent {
+        margin: 5px;
+    }
     
     }
