@@ -34,7 +34,7 @@ header img {
 }
 
 .headingtext h1 {
-	font-size: 1.6rem;
+	font-size: 30px;
 	margin: 0 0 0 17px;
 }
 
@@ -134,6 +134,7 @@ nav ul li a:hover {
 
 .weather h3 {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .weather th {
@@ -189,6 +190,7 @@ th img {
 
 h2, .fivedaytitle {
     text-align: center;
+    font-size: 1rem;
 }
 
 /* FIVE DAY */

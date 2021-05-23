@@ -1,7 +1,9 @@
 @media only screen and (min-width: 64em){
     /* MAIN BODY */
 
-
+    h2 {
+        font-size: 3rem;
+    }
     
     /* MAIN BODY */
     
@@ -56,6 +58,7 @@
     /* HERO */
 
     .idaho {
+        display: block;
         width: 980px;
         height: 100%;
     }
@@ -84,6 +87,7 @@
     .fivedaytitle {
         display:block;
         margin: 5rem 0 2rem auto;
+        font-size: 2.5rem;
     }
     
     .fiveday table {
