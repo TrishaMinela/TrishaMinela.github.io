@@ -33,21 +33,21 @@ header img {
     display: block;
 }
 
-.top-hero img {
-    position: relative; 
-    left: 50%;
-    transform: translateX(-50%);
+.idaho {
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+    height: 100%;
 }
-
 .weather {
-    position: absolute;
+    display: block;
     background: rgb(98,35,9);
     background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
     border: 2px solid #2A2A14;
     padding: 10px;
-    top: 33rem;
-    left: 25rem;
     font-size: 19px;
+    width: 20rem;
+    margin: 0 auto;
 }
 
 .weather th {
@@ -63,44 +63,59 @@ header img {
     text-align: left;
 }
 
+.fivedaytitle {
+    display:block;
+    margin: 2rem auto;
+}
+
 .fiveday table {
     background-color: #b1db76 ;
     border: 2px solid #2A2A14;
     width: 45%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 3px;
 }
 
-.article img{
-    width: 350px;
-    height: auto;
-    margin: 10px;
-    float: right;
+.article img, .map{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .article {
-    width: 950px;
-    margin: 0 auto;
-    background-color: #E45011;
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #f78a5c;
     padding: 15px;
+    text-align: justify;
 }
 
-
+.bottom {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-color: #f78a5c;
+    padding: 15px;
+    text-align: justify;
+}
 
 .days {
-    border: 2px solid #2A2A14;
+    background-color:  #2A2A14;
+    color: #E9D2C4;
+    font-size: 1rem;
 }
 
-
+.right p {
+    line-height: .7rem;
+    text-align: center;
+}
 th img {
     width: 55px;
     height: 100%;
 }
 
-img {
-    width: 950px;
-    height: 100%;
-
+.underdays {
+    font-size: 1.5rem;
 }
 
 .motto {
@@ -162,7 +177,7 @@ nav ul li a:hover {
     color: #2A2A14;
 }
 
-h2 {
+h2, .fivedaytitle {
     text-align: center;
 }
 
@@ -198,4 +213,8 @@ footer, footer p {
     clear: both;
 }
 
+
+.social {
+    justify-self: center;
+}
 

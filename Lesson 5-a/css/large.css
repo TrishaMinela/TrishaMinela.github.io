@@ -28,14 +28,80 @@
     .pagecontent {
         margin: 5px auto;
     }
-
-    footer, .pagecontent{
-        max-width: 900px;
-    }
   
     footer {
-        max-width: 940px;
+        max-width: 950px;
         margin: 0 auto;
     }
 
+    .article, .bottom {
+        max-width: 910px;
+        margin: 0 auto;
+    }
+
+    .idaho {
+        width: 950px;
+        height: 100%;
+    }
+
+    .weather {
+        position: absolute;
+        background: rgb(98,35,9);
+        background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
+        border: 2px solid #2A2A14;
+        padding: 10px;
+        top: 33rem;
+        left: 25rem;
+        font-size: 19px;
+    }
+
+    .article img{
+        width: 350px;
+        height: auto;
+        margin: 10px 0px 10px 10px;
+        float: right;
+    }
+    
+    .article, .bottom {
+        width: 950px;
+        margin: 5rem auto;
+        padding: 15px;
+    }
+
+    .fivedaytitle {
+        display:block;
+        margin: 5rem 0 2rem auto;
+    }
+    
+    .fiveday table {
+        background-color: #b1db76 ;
+        border: 2px solid #2A2A14;
+        width: 45%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    .days {
+        background-color:  #2A2A14;
+        color: #E9D2C4;
+        font-size: 2rem;
+    }
+
+    .social {
+        justify-self: center;
+    }
+    
+    .bottom {
+        display: flex;
+        margin-bottom: 0;
+    }
+    
+    .left {
+        flex: 50%;
+    }
+    
+    .right {
+        flex: 50%;
+    }
+    
 }
