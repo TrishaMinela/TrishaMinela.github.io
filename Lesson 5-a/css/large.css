@@ -28,13 +28,8 @@
     .pagecontent {
         margin: 5px auto;
     }
-  
-    footer {
-        max-width: 950px;
-        margin: 0 auto;
-    }
 
-    .article, .bottom {
+    .article, {
         max-width: 910px;
         margin: 0 auto;
     }
