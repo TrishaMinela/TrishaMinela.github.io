@@ -1,3 +1,5 @@
+/* MAIN BODY */
+
 html {
     background-color: #E9D2C4;
 }
@@ -7,6 +9,13 @@ main {
     background-color: #E9D2C4;
     padding: 3em;
 }
+
+/* MAIN BODY */
+
+
+
+
+/* HEADING */
 
 header {
     display: flex;
@@ -29,102 +38,22 @@ header img {
 	margin: 0 0 0 17px;
 }
 
-.top-hero {
-    display: block;
-}
-
-.idaho {
-    display: block;
-    margin: 0 auto;
-    width: 20rem;
-    height: 100%;
-}
-.weather {
-    display: block;
-    background: rgb(98,35,9);
-    background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
-    border: 2px solid #2A2A14;
-    padding: 10px;
-    font-size: 19px;
-    width: 20rem;
-    margin: 0 auto;
-}
-
-.weather th {
-    text-align: right;
-}
-
-.weathertitle {
-    text-align: left;
-    line-height: 10px;;
-}
-
-.weather td {
-    text-align: left;
-}
-
-.fivedaytitle {
-    display:block;
-    margin: 2rem auto;
-}
-
-.fiveday table {
-    background-color: #b1db76 ;
-    border: 2px solid #2A2A14;
-    width: 45%;
-    margin: 0 auto;
-    padding: 3px;
-}
-
-.article img, .map{
-    display: block;
-    width: 95%;
-    margin: 0 auto;
-}
-
-.article {
-    width: 80%;
-    margin: 1rem auto;
-    background-color: #f78a5c;
-    padding: 15px;
-    text-align: justify;
-}
-
-.bottom {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 0;
-    background-color: #f78a5c;
-    padding: 15px;
-    text-align: justify;
-}
-
-.days {
-    background-color:  #2A2A14;
-    color: #E9D2C4;
-    font-size: 1rem;
-}
-
-.right p {
-    line-height: .7rem;
-    text-align: center;
-}
-th img {
-    width: 55px;
-    height: 100%;
-}
-
-.underdays {
-    font-size: 1.5rem;
-}
-
 .motto {
-        font-style: italic;
-        letter-spacing: 1pt;
-        color: #E45011;
-        margin-left: 20px;
-        font-size: .9rem;
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #E45011;
+    margin-left: 20px;
+    font-size: .9rem;
 }
+
+/* HEADING */
+
+
+
+
+
+
+/* NAVIGATION */
 
 nav ul {
     background-color: #2A2A14;
@@ -177,25 +106,150 @@ nav ul li a:hover {
     color: #2A2A14;
 }
 
+/* NAVIGATION */
+
+
+
+
+/* HERO */
+
+.top-hero {
+    display: block;
+}
+
+.idaho {
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+    height: 100%;
+}
+.weather {
+    display: block;
+    background: rgb(98,35,9);
+    background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
+    border: 2px solid #2A2A14;
+    padding: 10px;
+    font-size: 19px;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.weather h3 {
+    text-align: center;
+}
+
+.weather th {
+    text-align: right;
+    color: #E9D2C4;
+}
+
+.weathertitle {
+    text-align: left;
+    line-height: 10px;;
+}
+
+.weather td {
+    text-align: left;
+}
+
+/* HERO */
+
+
+
+
+
+
+/* FIVE DAY */
+
+.fivedaytitle {
+    display:block;
+    margin: 2rem auto;
+}
+
+.fiveday table {
+    background-color: #b1db76 ;
+    border: 2px solid #2A2A14;
+    width: 45%;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.days {
+    background-color:  #2A2A14;
+    color: #E9D2C4;
+    font-size: 1rem;
+}
+
+th img {
+    width: 55px;
+    height: 100%;
+}
+
+.underdays {
+    font-size: 1.5rem;
+}
+
 h2, .fivedaytitle {
     text-align: center;
 }
 
-.pagecontent {
-    padding: 20px;
-    border: 2px solid #2A2A14;
-    background-color: #b1db76;
-    margin: 5px;
+/* FIVE DAY */
+
+
+
+/* ARTICLE */
+
+.article img, .map{
     display: block;
+    width: 95%;
+    margin: 0 auto;
 }
 
-.pagecontent a {
-    text-decoration: none;
-    color: #2A2A14;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 17px;
-    font-weight: bold;
+.article {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #f78a5c;
+    padding: 15px;
+    text-align: justify;
 }
+
+/* ARTICLE */
+
+
+
+
+
+
+
+/* BOTTOM */
+
+.bottom {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-color: #f78a5c;
+    padding: 15px;
+    text-align: justify;
+}
+
+.right p {
+    line-height: .7rem;
+    text-align: center;
+}
+
+.social {
+    justify-self: center;
+
+}
+
+/* BOTTOM */
+
+
+
+
+
+
+/* FOOTER */
 
 footer, footer p {
     background-color: #2A2A14;
@@ -207,14 +261,12 @@ footer, footer p {
     margin: 0;
 }
 
+/* FOOTER */
+
+
+
 .clearfix:after {
     content:"";
     display: table;
     clear: both;
 }
-
-
-.social {
-    justify-self: center;
-}
-

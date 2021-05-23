@@ -1,4 +1,16 @@
 @media only screen and (min-width: 64em){
+    /* MAIN BODY */
+
+
+    
+    /* MAIN BODY */
+    
+
+
+
+
+
+    /* HEADER */
     
     header img {
         width: 200px;
@@ -15,6 +27,15 @@
         margin-left: 17px;
     }
 
+    /* HEADER */
+    
+
+
+
+
+
+    /* NAVIGATION */
+
     nav ul { 
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -25,43 +46,40 @@
         padding: .6rem 1rem;
     }
 
-    .pagecontent {
-        margin: 5px auto;
-    }
+    /* NAVIGATION */
 
-    .article, {
-        max-width: 910px;
-        margin: 0 auto;
-    }
+    
+
+
+
+
+    /* HERO */
 
     .idaho {
-        width: 950px;
+        width: 980px;
         height: 100%;
     }
 
     .weather {
         position: absolute;
         background: rgb(98,35,9);
-        background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
+        background: linear-gradient(90deg, rgba(98,35,9,0.6) 0%, rgba(140,42,0,0.6) 16%, rgba(233,210,196,0.6) 100%);
         border: 2px solid #2A2A14;
+        width: 250px;
         padding: 10px;
         top: 33rem;
         left: 25rem;
         font-size: 19px;
     }
 
-    .article img{
-        width: 350px;
-        height: auto;
-        margin: 10px 0px 10px 10px;
-        float: right;
-    }
-    
-    .article, .bottom {
-        width: 950px;
-        margin: 5rem auto;
-        padding: 15px;
-    }
+    /* HERO */
+
+
+
+
+
+
+    /* FIVE DAY */
 
     .fivedaytitle {
         display:block;
@@ -82,9 +100,36 @@
         font-size: 2rem;
     }
 
-    .social {
-        justify-self: center;
+    /* FIVE DAY */
+
+
+
+
+
+
+    /* ARTICLE */
+    
+    .article img{
+        width: 350px;
+        height: auto;
+        margin: 10px 0px 10px 10px;
+        float: right;
     }
+
+    .article {
+        width: 950px;
+        margin: 3rem auto;
+        padding: 15px;
+    }
+
+    /* ARTICLE */
+
+
+
+
+
+
+    /* BOTTOM */
     
     .bottom {
         display: flex;
@@ -98,5 +143,22 @@
     .right {
         flex: 50%;
     }
+
+    /* BOTTOM */
+
+    
+
+
+
+    
+    /* FOOTER */
+
+    footer, .bottom {
+        width: 950px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    /* FOOTER */
     
 }
