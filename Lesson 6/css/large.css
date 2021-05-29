@@ -1,8 +1,9 @@
-@media only screen and (min-width: 35em) {
-
+@media only screen and (min-width: 64em){
     /* MAIN BODY */
 
-
+    h2 {
+        font-size: 3rem;
+    }
     
     /* MAIN BODY */
     
@@ -14,8 +15,18 @@
     /* HEADER */
     
     header img {
-        width: 150px;
+        width: 200px;
         height: auto;
+    }
+
+    .headingtext h1 {
+        font-size: 3rem;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
     }
 
     /* HEADER */
@@ -27,35 +38,15 @@
 
     /* NAVIGATION */
 
+    nav ul { 
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding-left: 0;
+    }
+
     nav ul li a {
-        border: none;
-        padding: .7rem 1rem;
+        padding: .6rem 1rem;
     }
-
-    nav ul li {
-        border-right: 1px solid #eb6e38;
-    }
-
-    nav ul li:hover {
-        background-color: #bf3900;
-        color: #2A2A14;
-    }
-
-    .hamburger li:first-child {
-        display: none;
-    }
-    
-    .hamburger {
-		display: flex;
-	}
-	.hamburger li {
-		display: block; 
-		flex: 1 1 auto;
-	}
-
-	.hamburger a {
-		text-align: center;
-	}
 
     /* NAVIGATION */
 
@@ -66,10 +57,13 @@
 
     /* HERO */
 
-    .top-hero {
+    .idaho {
         display: block;
+        width: 90%;
+        height: 100%;
         margin: 0 auto;
     }
+
 
     /* HERO */
 
@@ -93,7 +87,7 @@
         margin: 0 auto;
         padding: 10px;
     }
-
+    
     .days {
         background-color:  #2A2A14;
         color: #E9D2C4;
@@ -108,7 +102,7 @@
     .underdays {
         font-size: 1.5rem;
     }
-
+    
     /* FIVE DAY */
 
 
@@ -119,18 +113,17 @@
     /* ARTICLE */
     
     .article img{
-        width: 300px;
+        width: 350px;
         height: auto;
         margin: 10px 0px 10px 10px;
         float: right;
     }
-    
-    .article, .bottom {
-        width: 850px;
-        margin: 4rem auto;
-        background-color: #f78a5c;
+
+    .article {
+        width: 950px;
+        margin: 3rem auto;
         padding: 15px;
-    }    
+    }
 
     /* ARTICLE */
 
@@ -140,18 +133,18 @@
 
 
     /* BOTTOM */
-
+    
     .bottom {
         display: flex;
         margin-bottom: 0;
     }
     
     .left {
-        flex: 50%
+        flex: 50%;
     }
     
     .right {
-        flex: 50%
+        flex: 50%;
     }
 
     /* BOTTOM */
@@ -160,28 +153,15 @@
 
 
 
-
+    
     /* FOOTER */
 
-
-
-    /* FOOTER */
-    
-    
-    
-    
-    
-    
-    
-    
-
-  
-
-
-
-    
-
-
-   
-    
+    footer, .bottom {
+        width: 950px;
+        margin: 0 auto;
+        padding: 15px;
     }
+
+    /* FOOTER */
+    
+}

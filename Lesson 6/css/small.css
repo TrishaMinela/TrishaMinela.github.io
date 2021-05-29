@@ -10,6 +10,12 @@ main {
     padding: 3em;
 }
 
+
+h2 {
+    font-size: 2rem;
+}
+
+
 /* MAIN BODY */
 
 
@@ -114,15 +120,16 @@ nav ul li a:hover {
 /* HERO */
 
 .top-hero {
+    position: relative;
     display: block;
-    margin: 0 auto;
 }
 
 .idaho {
-    margin: 0 auto;
-    width: 25rem;
+    width: 80%;
     height: 100%;
+    margin: 0 auto;
 }
+
 .weather {
     background: rgb(98,35,9);
     background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
