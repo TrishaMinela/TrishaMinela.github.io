@@ -65,10 +65,10 @@
 
                   <tr>
                     <th>
-                        High: 
+                      Temperature:
                     </th>
                     <td>
-                      22°C
+                      <span id="temperature">22°C</span>
                     </td>
                   </tr>
 
@@ -95,7 +95,7 @@
                       Wind Speed:
                     </th>
                     <td>
-                      3 miles per hour
+                      <span id="speed">3 miles per hour</span>
                     </td>
                   </tr>
 
@@ -190,5 +190,16 @@
         <script src="js/script.js"></script>
       </footer>
   </body>
+  <script src="js/windchill.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+  WebFont.load({
+    google: {
+      families: [
+         'Antonio', 'Source Serif Pro'
+      ]
+    }
+  });
+  </script>
 
 </html>
