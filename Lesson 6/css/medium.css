@@ -73,6 +73,10 @@
     /* HERO */
 
     
+    .top-hero {
+        margin: 0 auto;
+    }
+
     .idaho {
         width: 80%;
         height: auto;
