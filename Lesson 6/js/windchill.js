@@ -1,5 +1,5 @@
 let temperature = document.getElementById('temperature').textContent;
-let speed = document.getElementById('speed').textcontent;
+let speed = document.getElementById('speed').textContent;
 
 if(temp <=10 && speed >= 4.8){
     let exponent = Math.pow(speed, 0.16);
