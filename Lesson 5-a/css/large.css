@@ -57,23 +57,7 @@
 
     /* HERO */
 
-    .idaho {
-        display: block;
-        width: 980px;
-        height: 100%;
-    }
 
-    .weather {
-        position: absolute;
-        background: rgb(98,35,9);
-        background: linear-gradient(90deg, rgba(98,35,9,0.6) 0%, rgba(140,42,0,0.6) 16%, rgba(233,210,196,0.6) 100%);
-        border: 2px solid #2A2A14;
-        width: 250px;
-        padding: 10px;
-        top: 33rem;
-        left: 25rem;
-        font-size: 19px;
-    }
 
     /* HERO */
 

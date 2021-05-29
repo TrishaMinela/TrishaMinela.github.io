@@ -122,6 +122,7 @@ nav ul li a:hover {
 .idaho {
     margin: 0 auto;
 }
+
 .weather {
     background: rgb(98,35,9);
     background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
