@@ -6,6 +6,7 @@ html {
 
 main {
 	margin: 0 auto;
+    display: block;
     background-color: #E9D2C4;
     padding: 3em;
 }
@@ -114,14 +115,12 @@ nav ul li a:hover {
 /* HERO */
 
 .top-hero {
-    display: block;
-    margin: 0 auto;
+    display: relative;
+    margin: 5px auto;
 }
 
 .idaho {
     margin: 0 auto;
-    width: 25rem;
-    height: 100%;
 }
 .weather {
     background: rgb(98,35,9);
