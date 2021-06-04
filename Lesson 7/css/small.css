@@ -131,7 +131,11 @@ nav ul li a:hover {
     transition: filter 0.5s;
     display: block;
     margin: 0 auto;
-    margin-top: 8px;
+    margin-top: 2px;
+}
+
+picture {
+    border:5px outset ;
 }
 
 /* GALLERY */
