@@ -20,6 +20,7 @@ h2 {
 
 h3, p {
     text-align: center;
+    margin: 2px;
 }
 
 /* MAIN BODY */
@@ -130,6 +131,7 @@ nav ul li a:hover {
     transition: filter 0.5s;
     display: block;
     margin: 0 auto;
+    margin-top: 8px;
 }
 
 /* GALLERY */
