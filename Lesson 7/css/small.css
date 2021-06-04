@@ -1,0 +1,198 @@
+/* MAIN BODY */
+
+html {
+    background-color: #E9D2C4;
+}
+
+main {
+	margin: 0 auto;
+    background-color: #E9D2C4;
+    padding: 3em;
+}
+
+.gallery {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3, p {
+    text-align: center;
+}
+
+/* MAIN BODY */
+
+
+
+
+/* HEADING */
+
+header {
+    display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+}
+
+.headingtext {
+	display: flex;
+	flex-direction: column;
+}
+
+.headingtext h1 {
+	font-size: 30px;
+	margin: 0 0 0 17px;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #E45011;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+/* HEADING */
+
+
+
+
+
+
+/* NAVIGATION */
+
+nav ul {
+    background-color: #2A2A14;
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    padding-left: 0;
+    display: block;
+    padding: 1.5rem 2%;
+    text-decoration: none;
+    border-top: 1px solid #eb6e38;
+    color: #E45011;
+}
+
+.hamburger li:first-child {
+    display: block;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.hamburger li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.ham {
+    border-top: none;
+}
+
+nav ul li.current {
+    background-color: #8c2a00; 
+}
+
+nav ul li.current a {
+    color: #E9D2C4;
+}
+
+nav ul li a:hover {
+    background-color: #bf3900;
+    color: #2A2A14;
+}
+
+/* NAVIGATION */
+
+
+
+
+/* GALLERY */
+
+.images img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    display: block;
+    margin: 0 auto;
+}
+
+/* GALLERY */
+
+
+
+
+
+/* HERO */
+
+/* HERO */
+
+
+
+
+
+
+/* FIVE DAY */
+
+/* FIVE DAY */
+
+
+
+/* ARTICLE */
+
+
+/* ARTICLE */
+
+
+
+
+
+
+
+/* BOTTOM */
+
+
+
+/* BOTTOM */
+
+
+
+
+
+
+/* FOOTER */
+
+footer, footer p {
+    background-color: #2A2A14;
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+    padding: .5em;
+    color: #E9D2C4;
+    text-align:center;
+    margin: 0;
+}
+
+/* FOOTER */
+
+
+
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}

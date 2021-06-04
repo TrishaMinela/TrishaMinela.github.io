@@ -1,0 +1,126 @@
+@media only screen and (min-width: 64em){
+    /* MAIN BODY */
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    main {
+        width: 1050px;
+    }
+    /* MAIN BODY */
+    
+
+
+
+
+
+    /* HEADER */
+    
+    header img {
+        width: 200px;
+        height: auto;
+    }
+
+    .headingtext h1 {
+        font-size: 3rem;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+
+    /* HEADER */
+    
+
+
+
+
+
+    /* NAVIGATION */
+
+    nav ul { 
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding-left: 0;
+    }
+
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+    /* NAVIGATION */
+
+    
+
+
+
+    /* GALLERY */
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* GALLERY */
+
+
+
+
+    /* HERO */
+
+ 
+    
+
+
+    /* HERO */
+
+
+
+
+
+
+    /* FIVE DAY */
+
+    
+    /* FIVE DAY */
+
+
+
+
+
+
+    /* ARTICLE */
+    
+    
+
+    /* ARTICLE */
+
+
+
+
+
+
+    /* BOTTOM */
+    
+    
+    /* BOTTOM */
+
+    
+
+
+
+    
+    /* FOOTER */
+
+    footer, .bottom {
+        width: 950px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    /* FOOTER */
+    
+}
