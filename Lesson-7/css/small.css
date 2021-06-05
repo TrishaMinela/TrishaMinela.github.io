@@ -107,11 +107,8 @@ nav ul li a {
     border-top: none;
 }
 
-nav ul li.current {
+nav ul li a:active, nav ul li a.gallery {
     background-color: #8c2a00; 
-}
-
-nav ul li.current a {
     color: #E9D2C4;
 }
 

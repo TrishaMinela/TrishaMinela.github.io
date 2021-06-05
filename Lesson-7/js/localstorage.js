@@ -1,9 +1,8 @@
 // Local Storage
-var date = new Date();
-localStorage.setItem("date1", d1.getTime());
-var date1 = new Date(parseInt(localStorage.getItem[date1]));
-localStorage.setItem("date2", date);
-var date1 = new Date(parseInt(localStorage.getItem[date2]));
-Timedif = date2.getTime() - date1.getTime();
+
+let date1 = new Date(parseInt(localStorage.getItem[date1]));
+let date2 = new Date(parseInt(localStorage.getItem[date2]));
+Timedif = date2 - date1;
 Daydif = Math.round (Timedif / (1000 * 3600 * 24));
-document.querySelector("since").textContent = Daydif;
+document.querySelector("since").textContent = `Your last visit was: ${Daydif} days ago`;
+
