@@ -5,9 +5,6 @@
         font-size: 3rem;
     }
     
-    main {
-        width: 1050px;
-    }
     /* MAIN BODY */
     
 
@@ -56,7 +53,6 @@
     
 
 
-
     /* GALLERY */
 
     .images {
@@ -73,12 +69,14 @@
     /* GALLERY */
 
 
-
-
     /* HERO */
 
- 
-    
+    .idaho {
+        display: block;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
 
 
     /* HERO */
@@ -90,6 +88,34 @@
 
     /* FIVE DAY */
 
+    .fivedaytitle {
+        display:block;
+        margin: 5rem 0 2rem auto;
+        font-size: 2.5rem;
+    }
+    
+    .fiveday table {
+        background-color: #b1db76 ;
+        border: 2px solid #2A2A14;
+        width: 45%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    .days {
+        background-color:  #2A2A14;
+        color: #E9D2C4;
+        font-size: 2rem;
+    }
+
+    th img {
+        width: 55px;
+        height: 100%;
+    }
+    
+    .underdays {
+        font-size: 1.5rem;
+    }
     
     /* FIVE DAY */
 
@@ -100,7 +126,18 @@
 
     /* ARTICLE */
     
-    
+    .article img{
+        width: 350px;
+        height: auto;
+        margin: 10px 0px 10px 10px;
+        float: right;
+    }
+
+    .article {
+        width: 950px;
+        margin: 3rem auto;
+        padding: 15px;
+    }
 
     /* ARTICLE */
 
@@ -111,7 +148,19 @@
 
     /* BOTTOM */
     
+    .bottom {
+        display: flex;
+        margin-bottom: 0;
+    }
     
+    .left {
+        flex: 50%;
+    }
+    
+    .right {
+        flex: 50%;
+    }
+
     /* BOTTOM */
 
     

@@ -23,6 +23,7 @@ h3, p {
     margin: 2px;
 }
 
+
 /* MAIN BODY */
 
 
@@ -143,8 +144,47 @@ picture {
 
 
 
-
 /* HERO */
+
+.top-hero {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.idaho {
+    width: 80%;
+    height: 100%;
+}
+
+.weather {
+    background: rgb(98,35,9);
+    background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
+    border: 2px solid #2A2A14;
+    padding: 10px;
+    font-size: 19px;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.weather h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.weather th {
+    text-align: right;
+    color: #E9D2C4;
+}
+
+.weathertitle {
+    text-align: left;
+    line-height: 10px;;
+}
+
+.weather td {
+    text-align: left;
+}
 
 /* HERO */
 
@@ -154,6 +194,39 @@ picture {
 
 
 /* FIVE DAY */
+
+.fivedaytitle {
+    display:block;
+    margin: 2rem auto;
+}
+
+.fiveday table {
+    background-color: #b1db76 ;
+    border: 2px solid #2A2A14;
+    width: 45%;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.days {
+    background-color:  #2A2A14;
+    color: #E9D2C4;
+    font-size: .8rem;
+}
+
+th img {
+    width: 35px;
+    height: 100%;
+}
+
+.underdays {
+    font-size: 1rem;
+}
+
+h2, .fivedaytitle {
+    text-align: center;
+    font-size: 1rem;
+}
 
 /* FIVE DAY */
 
@@ -161,6 +234,19 @@ picture {
 
 /* ARTICLE */
 
+.article img, .map{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.article {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #f78a5c;
+    padding: 15px;
+    text-align: justify;
+}
 
 /* ARTICLE */
 
@@ -172,7 +258,24 @@ picture {
 
 /* BOTTOM */
 
+.bottom {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-color: #f78a5c;
+    padding: 15px;
+    text-align: justify;
+}
 
+.right p {
+    line-height: .7rem;
+    text-align: center;
+}
+
+.social {
+    justify-self: center;
+
+}
 
 /* BOTTOM */
 

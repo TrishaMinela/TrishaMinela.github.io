@@ -45,16 +45,17 @@ let daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Sat
 let nameday = daylist[day];
 let monthlist = ["January", "February", "March", "April" ,"May", "June", "July", "August", "September", "October", "November", "December"]
 let monthname = monthlist[month];
-document.querySelector("#current").textContent =  `${nameday}, ${daynumber} ${monthname} ${year}`;
+let datemodified = `${nameday}, ${daynumber} ${monthname} ${year}`;
+document.querySelector("#current").textContent =  datemodified;
 
 
 
 
 
 // Local Storage
-// Store
-localStorage.setItem("lastname", "Smith");
-// Retrieve
-document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+var date1 = datemodified;
+var date2 = new Date();
 
-
+Timedif = date2.getTime() - date1.getTime();
+Daydif = Timedif / (1000 * 3600 * 24);
+document.querySelector("since").textContent = Daydif;
