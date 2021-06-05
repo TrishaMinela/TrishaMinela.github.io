@@ -53,9 +53,10 @@ document.querySelector("#current").textContent =  datemodified;
 
 
 // Local Storage
-var date1 = datemodified;
+var date1 = new Date();
+window.localStorage.setItem("date1", date);
 var date2 = new Date();
-
+window.localStorage.setItem("date2", date);
 Timedif = date2.getTime() - date1.getTime();
-Daydif = Timedif / (1000 * 3600 * 24);
+Daydif = Math.round (Timedif / (1000 * 3600 * 24));
 document.querySelector("since").textContent = Daydif;
