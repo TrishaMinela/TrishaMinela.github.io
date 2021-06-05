@@ -60,11 +60,13 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    picture:hover {
+    .images div:hover {
         box-shadow: 0 0 30px #333;
         transition-duration: .5s;
         transition-timing-function: ease-in;
     }
+
+    
 
     /* GALLERY */
 

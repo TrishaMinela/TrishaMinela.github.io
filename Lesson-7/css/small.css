@@ -127,17 +127,19 @@ nav ul li a:hover {
 
 /* GALLERY */
 
-.images img {
+
+
+
+.images div {
     filter: blur(0em);
     transition: filter 0.5s;
     display: block;
     margin: 0 auto;
     margin-top: 2px;
+    border: 5px outset ;
 }
 
-picture {
-    border:5px outset ;
-}
+
 
 /* GALLERY */
 
