@@ -107,7 +107,7 @@ nav ul li a {
     border-top: none;
 }
 
-nav ul li a:active, nav ul li a.gallery {
+nav ul li a.active {
     background-color: #8c2a00; 
     color: #E9D2C4;
 }
