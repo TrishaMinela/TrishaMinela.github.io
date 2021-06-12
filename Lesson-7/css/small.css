@@ -192,7 +192,84 @@ nav ul li a:hover {
 /* HERO */
 
 
+/* FORM */
 
+
+form fieldset {
+    border: 5px solid #2A2A14;
+    border-radius: 10px;
+    max-width: 60rem;
+}
+
+form legend {
+    color: #E45011;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 2rem;
+    font-family: 'Antonio', sans-serif;
+}
+
+form label {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2A14;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+
+form label.user, form label.date, form label.type, form label.rating, form label.danger, form label.stormType, form label.region, form label.comments, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #2A2A14;
+    font-size: .8rem;
+}
+
+form label.user input, form label.stormType input, form label.date input, form label.type input, form label.region input {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.5rem;
+    border: 1px solid #2A2A14;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #2A2A14;
+    width: 100%;
+    max-width: 50rem;
+    background-color: #b1db76;
+}
+
+form label.comments textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.5rem;
+    border: 1px solid #2A2A14;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #2A2A14;
+    width: 100%;
+    max-width: 50rem;
+    background-color: #b1db76;
+}
+
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/* FORM */
 
 
 
