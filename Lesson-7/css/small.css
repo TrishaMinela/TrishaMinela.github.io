@@ -193,12 +193,16 @@ nav ul li a:hover {
 
 
 /* FORM */
-
+.storm {
+    text-align: center;
+}
 
 form fieldset {
     border: 5px solid #2A2A14;
     border-radius: 10px;
     max-width: 60rem;
+    padding: 2rem 2rem;
+    margin: 3rem auto;
 }
 
 form legend {
@@ -216,14 +220,20 @@ form label {
     font-weight: bold;
 }
 
-form label.user, form label.date, form label.type, form label.rating, form label.danger, form label.stormType, form label.region, form label.comments, form div{
+label.yesnom {
     display: block;
-    padding-top: 1rem;
-    color: #2A2A14;
-    font-size: .8rem;
+    padding: 1rem;
 }
 
-form label.user input, form label.stormType input, form label.date input, form label.type input, form label.region input {
+
+form label.user, form label.date, form label.type, form label.rating, form label#danger, form label.stormType, form label.region, form label.comments, form div{
+    display: block;
+    color: #2A2A14;
+    font-size: .8rem;
+    margin: 1rem;
+}
+
+form label.user input, form label.stormType input, form label.date input, form label.type input, form label.region input{
     -webkit-appearance: none;
     display: block;
     font-size: 1.5rem;
@@ -231,10 +241,11 @@ form label.user input, form label.stormType input, form label.date input, form l
     border-radius: 4px;
     padding: .75rem;
     color: #2A2A14;
+    max-width: 55rem;
     width: 100%;
-    max-width: 50rem;
     background-color: #b1db76;
 }
+
 
 form label.comments textarea {
     -webkit-appearance: none;
@@ -245,28 +256,39 @@ form label.comments textarea {
     padding: .75rem;
     color: #2A2A14;
     width: 100%;
-    max-width: 50rem;
+    max-width: 55rem;
     background-color: #b1db76;
 }
 
 
 form input.submitBtn {
+    display: block;
     border: none;
-    background-color: #9c2c13;
-    color: white;
+    background-color: #E45011;
+    color: #E9D2C4;
     border-radius: 1rem;
     padding: 0.75rem;
-    margin: 1rem 0 2rem 2%;
+    margin: 0 auto;
+    margin-top: 1rem;
     width: 96%;
     max-width: 20rem;
+    font-size: 1.5rem;
 }
 
-form label.top input:required {
-    border-left: red solid 6px;
+form fieldset label.user , form fieldset label.region, form fieldset label.stormType, form fieldset label.rating, form fieldset label.date, form fieldset label.danger{
+    padding: 1rem;
 }
 
-form label.top input:required:valid {
-    border-left: green solid 6px;
+form fieldset input {
+    margin: 0 auto;
+}
+
+form label.user input:required {
+    border-bottom: red solid 6px;
+}
+
+form label.user input:required:valid {
+    border-bottom: green solid 6px;
 }
 
 /* FORM */
