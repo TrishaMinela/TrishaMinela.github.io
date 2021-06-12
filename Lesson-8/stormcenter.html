@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Preston Idaho</title>
+      <meta name="description" content="This page will be the preston idaho site">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../Lesson-7/css/small.css">
+      <link rel="stylesheet" href="../Lesson-7/css/normalize.css">
+      <link rel="stylesheet" href="../Lesson-7/css/medium.css">
+      <link rel="stylesheet" href="../Lesson-7/css/large.css">
+</head>
+  
+  <body>
+        <header>
+            <div>
+                <img src="../Lesson-7/images/logo.png" alt="Logo">
+            </div>
+            <section class="headingtext">
+                <h1 class="Title">Your Forecast</h1>
+                <div class="motto">Befriend your forecast and take the counsel</div>
+            </section>
+        </header>
+
+        <nav class="clearfix">
+            <ul class="hamburger">
+              <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; MENU</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="https://trishaminela.github.io/Lesson-6/preston-6.html">Preston</a></li>
+              <li><a href="#">Soda Springs</a></li>  
+              <li><a href="#">Fish Haven</a></li>
+              <li><a href="active">Storm Center</a></li>
+              <li class="#"><a href="https://trishaminela.github.io/Lesson-7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <body>
+            <h1>Report a Weather Activity</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" patter="^[a-zA-Z0-9]*$" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="john.smith@gmail.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="123456789" required></label>
+                <label class="top">Zip Code* <input type="number" name="zcode" placeholder="123456789" required></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Report the Weather</legend>
+                <label class="top">Storm Date<input type="date" name="stormDate"> </label>
+
+                <div>Storm Type</div>
+                <label class="type"><input type="radio" name="stormType" value="Flood">Flash Flood </label>
+                <label class="type"><input type="radio" name="stormType" value="Hail">Hail </label>
+                <label class="type"><input type="radio" name="stormType" value="Hurricane">Hurricane </label>
+                <label class="type"><input type="radio" name="stormType" value="storm">Thunderstorm </label>
+                <label class="type"><input type="radio" name="stormType" value="tornado">Tornado </label>
+            </fieldset>
+
+            <fieldset>
+                    <label class="rating" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">10</span>
+                    </label>
+            
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+            </fieldset>
+
+                <div>Software Needed</div>
+                <label class="sbs"><input type="checkbox" name="code" value="yes">Coding </label>
+                <label class="sbs"><input type="checkbox" name="client" value="yes">FTP Client </label>
+                <label class="sbs"><input type="checkbox" name="editing" value="yes">Photo Editing </label>
+                <label class="sbs"><input type="checkbox" name="process" value="yes">Preprocessor </label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Funding</legend>
+                
+                <label class="top">Course Subject 
+                    <select name="subject">
+                        <option value=" ">Please Select &#9662;</option>
+                        <option value="software">Software Development </option>
+                        <option value="creative">Creative Professional </option>
+                        <option value="info">Information Technology </option>
+                        <option value="data">Data Professional </option>
+                        <option value="construction">Construction </option>
+                        <option value="manufacturing">Manufacturing </option>
+                        <option value="business">Business Professional </option>
+                        <option value="security">Cyber Security </option>
+                    </select>
+                </label>
+
+                <label class="top">How Many Authors <input type="number" name="authors"> </label>
+            </fieldset>
+
+            <input type="submit" value=" Propose My Course" class="submitBtn"> 
+
+        </form>
+
+
+
+        </body>
+
+    </main>
+
+      <footer>
+        &copy; <span id="year"></span> Your Forecast | Trisha Minela I. Sumiran 
+        <p>Current Date: <span id="current"> </span></p>
+        <p>Your last visit was: <span id="since"></span> days ago.</p>
+      </footer>
+      <script src="js/script.js"></script>
+      <script src="js/localstorage.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script>
+        WebFont.load({
+        google: {
+        families: [
+         'Antonio', 'Source Serif Pro'
+        ]
+        }
+        });
+      </script>
+  </body>
+</html>
