@@ -42,7 +42,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>About you</legend>
-                <label class="user">Full Name* <input type="text" name="fname" patter="^[a-zA-Z0-9]*$" required></label>
+                <label class="user">Full Name* <input type="text" name="fname" pattern="^[a-zA-Z0-9]*$" minlength="5" required></label>
                 <label class="user">Email <input type="email" name="email" placeholder="john.smith@gmail.com"></label>
                 <label class="user">Phone* <input type="tel" name="phone" placeholder="123456789" required></label>
                 <label class="user">Zip Code* <input type="number" name="zcode" placeholder="062235" required></label>
@@ -63,10 +63,11 @@
                 <option value="Tornado">
                 </datalist>
 
+                <div class="slide">
                 <label class="rating" for="rating">Rating: &nbsp;&nbsp;&nbsp;
-                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> <span id="ratingvalue">5</span>
                 </label>
+                </div>
     
             <datalist id="tickmarks">
                 <option value="0">
@@ -91,9 +92,9 @@
                 </select>
             </label>
 
-            <label class="yesnom" id="danger">Are you in danger?</label>
+            <label id="danger">Are you in danger?</label>
                 <label class="yesnom"><input type="radio" name="indanger" value="yes"> Yes </label>
-                <label class="yesnom"><input type="radio" name="indanger" value="maybe"> Maybe </label>
+                <label class="yesnom"><input type="radio" name="indanger" value="maybe"> Maybe</label>
                 <label class="yesnom"><input type="radio" name="indanger" value="no"> No </label>
 
             </fieldset>

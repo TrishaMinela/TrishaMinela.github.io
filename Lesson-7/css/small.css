@@ -107,14 +107,10 @@ nav ul li a {
     border-top: none;
 }
 
-nav ul li a.active {
-    color: #E9D2C4;
-}
-
-nav ul li.active {
+nav ul li.active a{
+    color: #E9D2C4 !important;
     background-color: #8c2a00; 
 }
-
 
 nav ul li a:hover {
     background-color: #bf3900;
@@ -193,6 +189,11 @@ nav ul li a:hover {
 
 
 /* FORM */
+
+input {
+    box-sizing: border-box;
+}
+
 .storm {
     text-align: center;
 }
@@ -220,20 +221,16 @@ form label {
     font-weight: bold;
 }
 
-label.yesnom {
-    display: block;
-    padding: 1rem;
-}
 
 
-form label.user, form label.date, form label.type, form label.rating, form label#danger, form label.stormType, form label.region, form label.comments, form div{
+form label.user, form label.date, form label.type, form label.rating, form label.yesnom, form label.stormType, form label.region, form label.comments, form div, form label#danger{
     display: block;
     color: #2A2A14;
     font-size: .8rem;
     margin: 1rem;
 }
 
-form label.user input, form label.stormType input, form label.date input, form label.type input, form label.region input{
+form label.user input, form label.stormType input, form label.date input, form label.type input, form label.region input, form label.region select{
     -webkit-appearance: none;
     display: block;
     font-size: 1.5rem;
@@ -246,6 +243,9 @@ form label.user input, form label.stormType input, form label.date input, form l
     background-color: #b1db76;
 }
 
+p.thanks {
+    font-size: 5rem;
+}
 
 form label.comments textarea {
     -webkit-appearance: none;
@@ -275,7 +275,7 @@ form input.submitBtn {
     font-size: 1.5rem;
 }
 
-form fieldset label.user , form fieldset label.region, form fieldset label.stormType, form fieldset label.rating, form fieldset label.date, form fieldset label.danger{
+form fieldset label.user , form fieldset label.region, form fieldset label.stormType, form fieldset label.rating, form fieldset label.date, form fieldset label#danger{
     padding: 1rem;
 }
 
@@ -290,6 +290,54 @@ form label.user input:required {
 form label.user input:required:valid {
     border-bottom: green solid 6px;
 }
+
+.slide {
+    width: 80%;
+  }
+  
+  #ratingvalue {
+      font-size: 2.5rem;
+  }
+
+  #rating {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 25px;
+    background: #b1db76;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  span {
+      text-align: center;
+  }
+
+  #rating:hover {
+    opacity: 1;
+  }
+  
+  #rating::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+    background: #2A2A14;
+    cursor: pointer;
+  }
+  
+  #rating::-moz-range-thumb {
+    width: 2rem;
+    height: 2rem;
+    background: #2A2A14;
+    cursor: pointer;
+  }
+
+  
+
+  
 
 /* FORM */
 
