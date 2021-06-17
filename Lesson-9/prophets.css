@@ -12,7 +12,6 @@ header {
     color: #EDB88B;
     width: 100%;
     height: 8rem;
-    font-size: 3rem;
 }
 
 footer {
@@ -24,6 +23,11 @@ footer {
 
 body {
     background-color: #933B25;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3.5rem !important;
 }
 
 h2 {
@@ -33,7 +37,8 @@ h2 {
 
 p {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .cards {
@@ -46,11 +51,15 @@ section{
     padding: .5rem;
     text-align: center;
     background-color: #EDB88B;
-    box-shadow: 5px 10px 15px #2E282A;
+    box-shadow: 10px 10px 25px #2E282A;
     margin: .5em;
+    margin-top: 1em;;
+    height: 650px;
 }
 
 img{
+    display: block;
+    margin: 0 auto;
     width: 100%;
     height: auto;
     max-width: 20rem;
