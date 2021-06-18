@@ -343,6 +343,31 @@ form label.user input:required:valid {
 
 
 
+    /* WIREFRAME */
+
+    .wireframe {
+        background-color: #2A2A14;
+        width: 90%;
+        margin: 0 auto;
+        color: #E9D2C4;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    .wireimg {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .wireh2 {
+        margin-bottom: 1rem;
+        margin-top: 0 !important;
+    }
+    /* WIREFRAME */
+
+
 /* FIVE DAY */
 
 .fivedaytitle {
