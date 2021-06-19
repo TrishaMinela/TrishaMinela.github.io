@@ -142,43 +142,78 @@ nav ul li a:hover {
 
 
 
+/* TOWNS */
+
+.specificTown {
+    margin: 0 auto;
+    border: 1px solid #344224;
+    padding: 2rem;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.townImage {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.h2, .h4, .population, .year, .rain{
+    text-align: center;
+    line-height: 1rem;
+}
+
+.h2 {
+    background: #344224;
+    color: #E9D2C4;
+}
+
+.rain {
+    margin-bottom: 2rem;
+}
+
+/* TOWNS */
+
 
 /* HERO */
 
-.top-hero {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-}
+
 
 .idaho {
-    width: 80%;
-    height: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    margin-bottom: 4rem !important;
 }
 
 .weather {
-    background: rgb(98,35,9);
-    background: linear-gradient(90deg, rgba(98,35,9,1) 0%, rgba(140,42,0,1) 16%, rgba(233,210,196,1) 100%);
-    border: 2px solid #2A2A14;
-    padding: 10px;
-    font-size: 19px;
+    display: block;
+    background-blend-mode: lighten;
+    border: 4px solid #2A2A14;
     width: 20rem;
-    margin: 0 auto;
+    padding: 2rem;
+    font-size: 30px;
 }
 
 .weather h3 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .weather th {
     text-align: right;
-    color: #E9D2C4;
+    color: black;
 }
 
 .weathertitle {
     text-align: left;
-    line-height: 10px;;
+    line-height: 2rem;
+    padding-bottom: 1rem;
 }
 
 .weather td {
@@ -407,6 +442,11 @@ h2, .fivedaytitle {
 
 
 
+
+
+
+
+
 /* ARTICLE */
 
 .article img, .map{
@@ -421,6 +461,10 @@ h2, .fivedaytitle {
     background-color: #f78a5c;
     padding: 15px;
     text-align: justify;
+}
+
+h5 {
+    text-align: center;
 }
 
 /* ARTICLE */

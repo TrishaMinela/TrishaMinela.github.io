@@ -10,13 +10,21 @@ fetch(townData)
 
     forpage.forEach(towns => {
       let specificTown = document.createElement('section');
+      specificTown.className = "specificTown";
       let h2 = document.createElement('h2');
+      h2.className = "h2";
       let h4 = document.createElement('h4');
+      h4.className = "h4";
       let year = document.createElement('p');
+      year.className = "year";
       let population = document.createElement('p');
+      population.className = "population";
       let rain = document.createElement('p')
+      rain.className = "rain";
       let townImage = document.createElement('img');
+      townImage.className = "townImage";
 
+      
       h2.textContent = `${towns.name}`;
       specificTown.appendChild(h2);
 
