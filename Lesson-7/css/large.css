@@ -73,11 +73,25 @@
 
     /* HERO */
 
-    .idaho {
+
+    .top-hero {
         display: block;
-        width: 90%;
-        height: 100%;
         margin: 0 auto;
+    }
+    
+
+    .idaho {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .weather {
+        position: absolute;
+        top: 35rem;
+        left: 15rem;
     }
 
 
