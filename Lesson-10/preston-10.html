@@ -190,8 +190,8 @@
         &copy; <span id="year"></span> Your Forecast | Trisha Minela I. Sumiran 
         <p>Current Date: <span id="current"> </span></p>
       </footer>
-      <script src="js/preston.js"></script>
       <script src="js/fiveday.js"></script>
+      <script src="js/preston.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
       <script>
         WebFont.load({
@@ -201,24 +201,6 @@
         ]
         }
         });
-      </script>
-      <script>
-          function toggleMenu() {
-    document.getElementsByClassName("hamburger")[0].classList.toggle("responsive");
-}
-
-let Date = new Date();
-let year = Date.getFullYear();
-let day = Date.getDay();
-let month = Date.getMonth()+1;
-let daynumber = Date.getDate();
-document.querySelector("#year").textContent = year;
-let daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-let nameday = daylist[day];
-let monthlist = ["January", "February", "March", "April" ,"May", "June", "July", "August", "September", "October", "November", "December"]
-let monthname = monthlist[month];
-document.querySelector("#current").textContent =  `${nameday}, ${daynumber} ${monthname} ${year}`;
-
       </script>
   </body>
 </html>
