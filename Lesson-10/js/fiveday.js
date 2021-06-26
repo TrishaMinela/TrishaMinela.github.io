@@ -4,15 +4,19 @@ fetch(weatherURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    let day = 0;
+    let day = 1;
     const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
     const forecast = jsObject.list.filter( forecast => forecast.dt_txt.includes("18:00:00"));
     console.log(forecast);
     forecast.forEach( x => {
         let date = new Date(x.dt_txt);
-        document.getElementById(`days${day+1}`).textContent = days[date.getDay()];
-        document.getElementById(`daytemp${day+1}`).textContent = `${x.main.temp}°F`;
+        document.getElementById(`days${day}`).textContent = days[date.getDay()];
+        let forimage = getElementById(image)
+        let image = getElementById(`fiveday${day}`)
+        image.setAttribute('src', x.weather.icon);
+        forimage.appendChild(image)
+        document.getElementById(`daytemp${day}`).textContent = `${x.main.temp}°F`;
         day++
     })
     

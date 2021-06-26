@@ -516,6 +516,15 @@ footer, footer p {
     margin: 0;
 }
 
+
+.ow {
+    display: block;
+    width: 5rem;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
 /* FOOTER */
 
 
