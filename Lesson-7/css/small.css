@@ -188,11 +188,12 @@ nav ul li a:hover {
     margin: 0 auto;
     width: 90%;
     height: auto;
-    margin-bottom: 4rem !important;
+    margin-bottom: 2rem !important;
 }
 
 .weather {
     display: block;
+    margin: 0 auto;
     background-color: #E9D2C4;
     border: 4px solid #2A2A14;
     width: 10rem;

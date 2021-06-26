@@ -142,13 +142,15 @@ div#getjson{
     /* HERO */
 
     .top-hero {
+        height: 45rem;
         display: block;
         margin: 0 auto;
+        padding-bottom: 0rem;
     }
     
 
     .idaho {
-        position: relative;
+        
         display: block;
         margin: 0 auto;
         width: 80%;
@@ -156,9 +158,10 @@ div#getjson{
     }
 
     .weather {
-        position: absolute;
-        top: 35rem;
-        left: 15rem;
+        position: relative;
+        top: -20rem;
+        left: 6rem;
+        
     }
 
     

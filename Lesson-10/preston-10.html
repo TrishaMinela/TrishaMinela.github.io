@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="../Lesson-7/css/normalize.css">
       <link rel="stylesheet" href="../Lesson-7/css/medium.css">
       <link rel="stylesheet" href="../Lesson-7/css/large.css">
+      <script src="js/script.js"></script>
 </head>
   
   <body>
@@ -55,11 +56,11 @@
               <table>
                 <tbody>
                   <tr>
-                    <th>
+                    <th >
                       Currently:
                     </th>
-                    <td>
-                      Cloudy
+                    <td id="current">
+                      
                     </td>
                   </tr>
 
@@ -68,7 +69,7 @@
                       Temperature:
                     </th>
                     <td>
-                      <span id="temperature">8</span>&deg;C
+                      <span id="temperature"></span>&deg;F
                     </td>
                   </tr>
 
@@ -83,10 +84,10 @@
 
                   <tr>
                     <th>
-                      Humidiy:
+                      Humidity:
                     </th>
-                    <td>
-                      47%
+                    <td id="humidity">
+                    
                     </td>
                   </tr>
 
@@ -95,7 +96,7 @@
                       Wind Speed:
                     </th>
                     <td>
-                      <span id="speed">5</span>
+                      <span id="speed"></span>
                     </td>
                   </tr>
 
@@ -118,27 +119,27 @@
           <table>
             <tbody>
               <tr>
-                <th class="days">Monday</th>
-                <th class="days">Tuesday</th>
-                <th class="days">Wednesday</th>
-                <th class="days">Thursday</th>
-                <th class="days">Friday</th>
+                <th id="days1"></th>
+                <th id="days2"></th>
+                <th id="days3"></th>
+                <th id="days4"></th>
+                <th id="days5"></th>
               </tr>
               
               <tr>
-                <th><img src="images/partlycloudy.png" alt="partly cloudy" class="underdays"></th>
-                <th><img src="images/partlycloudy.png" alt="partly cloudy" class="underdays"></th>
-                <th><img src="images/raincloudy.png" alt="rainy and cloudy" class="underdays"></th>
-                <th><img src="images/partlycloudy.png" alt="partly cloudy" class="underdays"></th>
-                <th><img src="images/cloudy.png" alt="cloudy" class="underdays"></th>
+                <th><img id="fiveday"></th>
+                <th><img id="fiveday"></th>
+                <th><img id="fiveday"></th>
+                <th><img id="fiveday"></th>
+                <th><img id="fiveday"></th>
               </tr>
           
               <tr>
-                <th class="underdays">22°C</th>
-                <th class="underdays">25°C</th>
-                <th class="underdays">19°C</th>
-                <th class="underdays">22°C</th>
-                <th class="underdays">16°C</th>
+                <th id="daytemp1"></th>
+                <th id="daytemp2"></th>
+                <th id="daytemp3"></th>
+                <th id="daytemp4"></th>
+                <th id="daytemp5"></th>
               </tr>
 
             </tbody>
@@ -186,8 +187,9 @@
         &copy; <span id="year"></span> Your Forecast | Trisha Minela I. Sumiran 
         <p>Current Date: <span id="current"> </span></p>
       </footer>
-      <script src="js/script.js"></script>
-      <script src="js/windchill.js"></script>
+      
+      <script src="js/preston.js"></script>
+      <script src="js/fiveday.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
       <script>
         WebFont.load({
