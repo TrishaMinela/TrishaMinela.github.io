@@ -29,19 +29,6 @@ function toggleMenu() {
   }
   
   
-  // Date Modified
-  let newD = new Date();
-  let year = newD.getFullYear();
-  let day = newD.getDay();
-  let month = newD.getMonth()+1;
-  let daynumber = newD.getDate();
-  document.getElementById("year").textContent = year;
-  let daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-  let nameday = daylist[day];
-  let monthlist = ["January", "February", "March", "April" ,"May", "June", "July", "August", "September", "October", "November", "December"]
-  let monthname = monthlist[month];
-  document.querySelector("#current").textContent =  `${nameday}, ${daynumber} ${monthname} ${year}`;
-  
 
   // weather
 
@@ -71,9 +58,6 @@ else{
 });
 
 
-
-  
-  
 
 
 
