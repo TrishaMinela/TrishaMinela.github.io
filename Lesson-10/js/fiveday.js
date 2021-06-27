@@ -12,6 +12,8 @@ fetch(weatherURL)
     forecast.forEach( x => {
         let date = new Date(x.dt_txt);
         document.getElementById(`days${day}`).textContent = days[date.getDay()];
+        document.getElementById(`fiveday${day}`).src = `https://openweathermap.org/img/wn/${x.weather[0].icon}.png`;
+        document.getElementById(`fiveday${day}`).alt = "weather icon";
         document.getElementById(`daytemp${day}`).textContent = `${x.main.temp}°F`;
         day++
     })
@@ -38,9 +40,7 @@ function toggleMenu() {
   let nameday = daylist[day];
   let monthlist = ["January", "February", "March", "April" ,"May", "June", "July", "August", "September", "October", "November", "December"]
   let monthname = monthlist[month];
-  let datemodified = `${nameday}, ${daynumber} ${monthname} ${year}`;
-  document.getElementById("current").textContent =  datemodified;
-  
+  document.querySelector("#current").textContent =  `${nameday}, ${daynumber} ${monthname} ${year}`;
   
 
   // weather

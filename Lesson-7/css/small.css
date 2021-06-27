@@ -194,7 +194,7 @@ nav ul li a:hover {
 .weather {
     display: block;
     margin: 0 auto;
-    background-color: #E9D2C4;
+    background-color:rgba(233, 210, 196, 0.45);
     border: 4px solid #2A2A14;
     width: 10rem;
     padding: 2rem;
