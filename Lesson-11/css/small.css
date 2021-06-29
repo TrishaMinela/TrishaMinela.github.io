@@ -8,6 +8,7 @@ main {
 	margin: 0 auto;
     background-color: #E9D2C4;
     padding: 3em;
+    margin-bottom: 7rem;
 }
 
 .gallery {
@@ -134,7 +135,7 @@ nav ul li a:hover {
     margin: 0 auto;
     margin-top: 2px;
     border: 5px outset ;
-    margin-bottom: 7rem;
+    
 }
 
 
