@@ -78,6 +78,7 @@
  
         display: block;
         margin: 0 auto;
+        
     }
     
 
@@ -86,6 +87,7 @@
         margin: 0 auto;
         width: 90%;
         height: auto;
+        padding-bottom: 3rem;
     }
 
     .weather {
