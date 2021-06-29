@@ -46,21 +46,9 @@ let nameday = daylist[day];
 let monthlist = ["January", "February", "March", "April" ,"May", "June", "July", "August", "September", "October", "November", "December"]
 let monthname = monthlist[month];
 let current = `${nameday}, ${daynumber} ${monthname} ${year}`;
-document.querySelector("#current").textContent =  current;
+document.querySelector("#currently").textContent =  current;
 
 
 
 
-// Storm
-function adjustRating(rating) {
-  document.getElementById("ratingvalue").innerHTML = rating;
-}
-
-function selectResponse() {
-const s = document.querySelector('#selected')
-const sel = document.querySelector('#selectbrowser');
-s.style.display = "block";
-s.textContent = sel.value;
-
-}
 
