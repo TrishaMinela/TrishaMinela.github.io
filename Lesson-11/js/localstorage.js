@@ -5,5 +5,5 @@ if (typeof Storage !== "undefined") {
         var date2 = new Date(parseInt(localStorage.getItem[date2]));
         var Timedif = date2 - date1;
         var Daydif = Math.round (Timedif / (1000 * 3600 * 24));
-        document.querySelector("since").textContent = Daydif;
+        document.querySelector("#since").textContent = Daydif;
     } 

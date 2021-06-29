@@ -139,30 +139,13 @@ div#getjson{
 /* TOWNS */
 
 
-/* PRESTON */
-
-
-.top-preston {
-    margin: 0 auto;
-    padding: 0;
-}
-
-
-.preston {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-    height: auto;
-    padding: 0;
-}
-
-
-/* PRESTON */
 
 
     /* HERO */
 
- 
+    .top-hero {
+        max-height: 700px;
+    }
 
     .idaho {
         
@@ -172,12 +155,28 @@ div#getjson{
         height: auto;
     }
 
-    .weather {
+    
+
+    .idaho {
         position: relative;
-        top: -20rem;
-        left: -10rem;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .weather {
+        position: absolute;
+        top: 30rem;
+        left: 20rem;
+        width:max-content;
+        line-height: 1.5rem;
+        padding: 2.5rem;
+        font-size: 2rem;
         
     }
+    
 
     
     /* HERO */
@@ -253,6 +252,7 @@ div#getjson{
     .bottom {
         display: flex;
         margin-bottom: 0;
+        width: 850px;
     }
     
     .left {

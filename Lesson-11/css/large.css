@@ -70,41 +70,26 @@
 
     /* GALLERY */
 
-    /* PRESTON */
-
-
-
-    .top-preston {
-        margin: 0 auto;
-        padding: 0;
-        line-height: 1px;
-        max-height: 850px;
-    }
-    
-
-    .preston {
-        display: block;
-        margin: 0 auto;
-        width: 90%;
-        height: auto;
-        padding: 0;
-    }
-
-
-    /* PRESTON */
 
     /* HERO */
 
 
+    .top-home {
+ 
+        display: block;
+        margin: 0 auto;
+        max-height: 900px;
+    }
+    
     .top-hero {
  
         display: block;
         margin: 0 auto;
-        
+        max-height: 800px;
     }
-    
 
     .idaho {
+        position: relative;
         display: block;
         margin: 0 auto;
         width: 90%;
@@ -113,10 +98,14 @@
     }
 
     .weather {
-        position: relative;
-        top: -30rem;
-        left: -20rem;
-        line-height: 1.5rem;
+        position: absolute;
+        top: 30rem;
+        left: 20rem;
+        width:max-content;
+        line-height: 2rem;
+        padding: 2.5rem;
+        font-size: 2rem;
+        
     }
 
 
@@ -236,6 +225,7 @@
     .bottom {
         display: flex;
         margin-bottom: 0;
+        width: 950px;
     }
     
     .left {
