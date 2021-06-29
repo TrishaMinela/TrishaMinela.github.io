@@ -11,9 +11,6 @@ document.getElementById('icon').setAttribute('alt', desc);
 });
 
 
-
-
-
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
