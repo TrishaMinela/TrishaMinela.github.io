@@ -136,9 +136,14 @@ nav ul li a:hover {
     margin: 0 auto;
     margin-top: 2px;
     border: 5px outset ;
-    
+    padding: 0 !important;
+    width: 300px;
 }
 
+.images picture {
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* GALLERY */
