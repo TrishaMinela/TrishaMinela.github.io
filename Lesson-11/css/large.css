@@ -75,38 +75,12 @@
 
 
     .top-home {
- 
         display: block;
         margin: 0 auto;
         max-height: 900px;
     }
     
-    .top-hero {
  
-        display: block;
-        margin: 0 auto;
-        max-height: 800px;
-    }
-
-    .idaho {
-        position: relative;
-        display: block;
-        margin: 0 auto;
-        width: 90%;
-        height: auto;
-        padding-bottom: 1rem;
-    }
-
-    .weather {
-        position: absolute;
-        top: 30rem;
-        left: 20rem;
-        width:max-content;
-        line-height: 2rem;
-        padding: 2.5rem;
-        font-size: 2rem;
-        
-    }
 
 
     /* HERO */
@@ -207,12 +181,6 @@
         float: right;
     }
 
-    .article {
-        width: 950px;
-        margin: 3rem auto;
-        padding: 15px;
-    }
-
     /* ARTICLE */
 
 
@@ -225,7 +193,6 @@
     .bottom {
         display: flex;
         margin-bottom: 0;
-        width: 950px;
     }
     
     .left {

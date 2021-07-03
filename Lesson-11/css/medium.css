@@ -143,35 +143,25 @@ div#getjson{
 
     /* HERO */
 
+ 
     .top-hero {
-        max-height: 700px;
+        margin-bottom: 1rem;
     }
-
-    .idaho {
-        
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-        height: auto;
-    }
-
-    
 
     .idaho {
         position: relative;
-        display: block;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
         height: auto;
         padding-bottom: 1rem;
     }
 
     .weather {
         position: absolute;
-        top: 30rem;
-        left: 20rem;
+        top: 50%;
+        left: 20%;
         width:max-content;
-        line-height: 1.5rem;
+        line-height: 2rem;
         padding: 2.5rem;
         font-size: 2rem;
         
@@ -234,10 +224,7 @@ div#getjson{
     }
     
     .article, .bottom {
-        width: 850px;
-        margin: 4rem auto;
         background-color: #f78a5c;
-        padding: 15px;
     }    
 
     /* ARTICLE */
@@ -252,7 +239,6 @@ div#getjson{
     .bottom {
         display: flex;
         margin-bottom: 0;
-        width: 850px;
     }
     
     .left {

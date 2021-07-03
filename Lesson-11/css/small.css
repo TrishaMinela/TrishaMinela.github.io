@@ -184,14 +184,10 @@ nav ul li a:hover {
 
 /* HERO */
 
-.top-hero {
-    max-height: fit-content;
-}
-
 .idaho {
     display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-bottom: 2rem !important;
 }
@@ -210,7 +206,7 @@ nav ul li a:hover {
     font-size: 2rem;
 }
 
-.weather th {
+.weather legend {
     text-align: right;
     color: black;
 }
@@ -417,11 +413,11 @@ form label.user input:required:valid {
     margin: 2rem auto;
 }
 
-.fiveday table {
+.table{
     background-color: #b1db76 ;
     border: 2px solid #2A2A14;
     margin: 0 auto;
-    padding: 3px;
+    padding: 15px;
 }
 
 .days {
@@ -430,11 +426,11 @@ form label.user input:required:valid {
     font-size: .8rem;
 }
 
-.fiveday tr th {
+.table tr th {
     padding: 1rem;
 }
 
-.fiveday tr:first-child {
+.table tr:first-child {
     font-size: 1.5rem;
     background-color: #344224;
     color: #E9D2C4;
@@ -443,6 +439,11 @@ form label.user input:required:valid {
 th img {
     width: 35px;
     height: 100%;
+}
+
+.table {
+    width: 70%;
+    margin-bottom: 10rem;
 }
 
 .underdays {
@@ -476,7 +477,7 @@ h2, .fivedaytitle {
     margin: 0 auto;
 }
 
-.article {
+.article, .events {
     width: 80%;
     margin: 1rem auto;
     background-color: #f78a5c;
@@ -499,6 +500,7 @@ h5 {
 /* BOTTOM */
 
 .bottom {
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 0;
     background-color: #f78a5c;
