@@ -74,12 +74,28 @@
     /* HERO */
 
 
-    .top-home {
-        display: block;
-        margin: 0 auto;
-        max-height: 900px;
+    .top-hero {
+        margin-bottom: 1rem;
     }
-    
+
+    .idaho {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .weather {
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        width:max-content;
+        line-height: 2rem;
+        padding: 2.5rem;
+        font-size: 2rem;
+        
+    }
  
 
 
