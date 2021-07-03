@@ -231,6 +231,11 @@ nav ul li a:hover {
 
 /* FORM */
 
+form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 input {
     box-sizing: border-box;
 }
@@ -242,7 +247,7 @@ input {
 form fieldset {
     border: 5px solid #2A2A14;
     border-radius: 10px;
-    max-width: 60rem;
+    max-width: 100%;
     padding: 2rem 2rem;
     margin: 3rem auto;
 }
@@ -279,7 +284,6 @@ form label.user input, form label.stormType input, form label.date input, form l
     border-radius: 4px;
     padding: .75rem;
     color: #2A2A14;
-    max-width: 55rem;
     width: 100%;
     background-color: #b1db76;
 }
@@ -298,8 +302,8 @@ form label.comments textarea {
     border-radius: 4px;
     padding: .75rem;
     color: #2A2A14;
+    max-width: 100% !important;
     width: 100%;
-    max-width: 55rem;
     background-color: #b1db76;
 }
 
