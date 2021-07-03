@@ -127,7 +127,11 @@ nav ul li a:hover {
 /* GALLERY */
 
 
-
+.visit {
+    background-color: rgba(52, 66, 36, 0.3);
+    padding: 1rem;
+    font-size: 3rem;
+}
 
 .images div {
     filter: blur(0em);
