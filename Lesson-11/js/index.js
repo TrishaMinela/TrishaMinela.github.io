@@ -47,5 +47,7 @@ fetch(townData)
       document.getElementById('getjson').appendChild(specificTown);
       
     })
+
+    
 });
 
