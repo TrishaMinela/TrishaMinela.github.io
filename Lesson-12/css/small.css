@@ -190,6 +190,14 @@ nav ul li.active a, nav ul li a:hover{
     margin-bottom: 2rem;
 }
 
+.top-calauan {
+    position:relative;
+    background-image: url("../images/calauan.png");
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 2rem;
+}
+
 /* ACTION */
 
 .call-to-action{
