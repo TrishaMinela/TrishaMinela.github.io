@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&family=Martel:wght@300&display=swap');
+
+/* BODY */
+
+
+*{
+    margin: 0;
+      padding: 0;
+      outline: none;
+      border: none;
+      box-sizing: border-box;
+  }
+  *:before,
+  *:after{
+      box-sizing: border-box;
+  }
+
+body {
+    color: #FFF6EB;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+
+/* MAIN */
+
+
+main {
+    color: #515A47;
+    width: 70%;
+}
+
+
+
+/* MEMBERSHIP */
+
+
+
+
+
+/* CALL TO ACTION */
+
+
+
+
+/* EVENTS */
+
+
+
+/* HEADING */
+
+.header-left {
+    display: none;
+}
+
+.headingtext {
+    width: 100%;
+    height: auto;
+    background-color: #95B46A;
+    color: black;
+}
+
+
+.Titlelogo {
+    width: 20rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+.motto {
+    font-family: 'Martel', serif;
+    font-size: 1.5rem;
+    color: #0005;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* NAVIGATION */
+
+.logo {
+    width: 5rem;
+    height: auto;
+}
+
+nav ul li a {
+    color: white;
+    padding: 7px 13px !important;
+    border-radius: 5px;
+    font-size: 1.5rem !important;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.lasta {
+    margin-bottom: 1rem;
+}
+
+  .clear:before,
+  .clear:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .clear:after {
+    clear: both;
+  }
+  .container{
+      width: 95%;
+      margin: 0 auto;
+  }
+  .clear{
+      width: 100%;
+      height: auto;
+      background-color: #515A47;
+  }
+
+  h1{
+      font-weight: 300;
+      line-height: 40px;
+  }
+
+  a{
+      text-decoration: none;
+      color: white;
+      border-right: solid 2px;
+      position: relative;
+      display: block;
+      font-size: 13px;
+      line-height: 40px;
+      padding: 0 3rem;
+      transition: all .3s ease;
+  }
+
+
+  
+.hamburger li:first-child {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.hamburger li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.ham {
+    border-top: none;
+}
+
+nav ul li.active a, nav ul li a:hover{
+    background: #95B46A;
+    padding: 1rem; 
+}
+
+
+/* CONTACT */
+
+
+
+
+/* FOOTER */
+
+
+
+
+/* TEST */
+
+fef {
+    color: #95B46A;
+    color: #515A47;
+    color: #FFF6EB;
+    color: #eeb849;
+    color: rgb(238,184,73)
+}
