@@ -29,11 +29,11 @@
               <nav class="clearfix">
                 <ul class="hamburger">
                   <li><a  href="#" onclick="toggleMenu()">&#9776; MENU</a></li>
-                  <li><a class="active" href="#">Home</a></li>
+                  <li><a id="firstchild" class="active" href="#">Home</a></li>
                   <li><a href="#">Calauan</a></li>
                   <li><a href="#">Membership</a></li>  
                   <li><a href="#">Directory</a></li>
-                  <li><a class="lasta" href="#">Gallery</a></li>
+                  <li><a id="lastchild" href="#">Gallery</a></li>
                 </ul>
             </nav>
             </div>
@@ -42,13 +42,137 @@
   
 
         <main>
+          <div class="top-home">
+            <div class="call-to-action">
+              <h1>Be a Member</h1>
+              <h2><a href="#">Join</a></h2>
+            </div>
+          </div>
 
+          <div id="weather" class="weather-home">
+            <table id="day1">
+              <tr>
+                <td>Temperature:</td>
+                <td id="temp"></td>
+              </tr>
+              <tr>
+                <td>Condition:</td>
+                <td id="description"></td>
+              </tr>
+              <tr>
+                <td>Humidity:</td>
+                <td id="humidity"></td>
+              </tr>
+            </table>
 
-      
-         </main>
+            <table id="day2">
+              <tr>
+                <td>Temperature:</td>
+                <td id="temp"></td>
+              </tr>
+              <tr>
+                <td>Condition:</td>
+                <td id="description"></td>
+              </tr>
+              <tr>
+                <td>Humidity:</td>
+                <td id="humidity"></td>
+              </tr>
+            </table>
+
+            <table id="day3">
+              <tr>
+                <td>Temperature:</td>
+                <td id="temp"></td>
+              </tr>
+              <tr>
+                <td>Condition:</td>
+                <td id="description"></td>
+              </tr>
+              <tr>
+                <td>Humidity:</td>
+                <td id="humidity"></td>
+              </tr>
+            </table>
+          </div>
+        
+
+        <h1 class="companies">Local Companies</h1>
+
+        <div class="companies-home">
+          
+          <div class="company-one">
+            <h2>TJZED Cafe</h2>
+            <div class="img-companies">
+              <img src="../images/tjzed.png">
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            </p>
+          </div>
+
+          <div class="company-two">
+            <h2>Morales Resort</h2>
+            <div class="img-companies">
+              <img src="../images/morales.png">
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            </p>
+          </div>
+
+          <div class="company-three">
+            <h2>Palaisdaan</h2>
+            <div class="img-companies">
+              <img src="../images/isdaan.png">
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+
+      <div class="events">
+        <h2>Events</h2>
+        <p>
+          <strong>August 1, 2021</strong> - Pineapple Yearly Sale
+        </p>
+        <p>
+          <strong>August 16, 2021</strong> - Virtual Job Fair
+        </p>
+        <p>
+          <strong>August 21, 2021</strong> - Community Clean Up
+        </p>
+      </div>
+
+      <div class="purpose">
+        <h1 class="companies">
+          Calauan Chamber of Commerce
+        </h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+
+      </main>
       <footer>
-      
+      <div class="contact">
+        <div class="contact-grid">
+         <p>
+          Calauan@chamberofcommerce.com
+        </p>
+        <p>
+         <a href="https://twitter.com/" target="_blank"><img src="../images/twitter.png" alt="twitter logo"></a>
+        </p>
+        <p>
+         <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.png" alt="facebook logo"></a>
+        </p>
+        <p class="right">
+          &copy; Calauan Chamber of Commerce <span id="year"></span>
+        </p>
+      </div>
+      </div>
       </footer>
       <script src="../javascript/script.js"></script>
+      <script src="../javascript/weather.js"></script>
   </body>
 </html>
