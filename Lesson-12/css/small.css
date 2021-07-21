@@ -253,6 +253,16 @@ nav ul li.active a, nav ul li a:hover{
 /* CONTACT */
 
 
+/* ATTRIBUTIONS */
+.attributions {
+    background: #FFF6EB;
+    color: #515A47;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
 /* COMPANIES */
 
 
