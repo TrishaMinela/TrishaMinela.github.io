@@ -132,8 +132,10 @@ nav ul li a {
   .clear{
       width: 100%;
       height: auto;
-      background-color: #FFF6EB;
+      background-color: #515A47;
   }
+
+
 
   h1{
       font-weight: 300;
@@ -269,7 +271,7 @@ nav ul li.active a, nav ul li a:hover{
 .companies, .companies-home h2 {
     display: block;
     width: 100%;
-    color: #515A47;
+    color: #f8d387;
     font-size: 3rem;
     text-align: center;
     padding: 1.5rem;
@@ -294,6 +296,7 @@ nav ul li.active a, nav ul li a:hover{
 .chamber p, .small-business p{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-family: 'Martel', serif;
 }
 
 .member {

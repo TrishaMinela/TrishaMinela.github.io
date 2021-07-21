@@ -190,7 +190,7 @@ li a.active, li a:hover {
     grid-gap: 2rem;
 }
 
-.companies, .companies-home h2 , .small-business, .chamber {
+.companies , .companies-home h2 , .small-business, .chamber, .purpose {
     color: #515A47;
     display: block;
     text-align: center;
