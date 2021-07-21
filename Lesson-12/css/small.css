@@ -652,18 +652,29 @@ footer p, footer a{
     width: 100%;
     background: #f8d387;
     margin: 0 auto;
-    margin-top: 20rem;
 }
 
 .BusinessSpace {
-    width: 30rem;
+    width: 40%;
     background: #515A47;
     color: #f8d387;
     font-family: 'Martel', serif;
-    margin: 2rem;
+    margin-top: 2rem;
     padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
+.BusinessSpace h2, .BusinessSpace p {
+    text-align: center;
+}
+
+.feature, .logos {
+    width: 250px;
+    height: auto;
+    margin-top: 1rem;
+    margin: 0 auto;
+}
 
 
 
