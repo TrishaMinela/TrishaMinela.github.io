@@ -37,7 +37,7 @@ html main {
 table {
     width: auto;
     margin: 0 auto;
-    border: 3px solid #FFF6EB;
+    border: 3px solid #515A47;
     margin-bottom: 4rem;
 }
 
@@ -132,7 +132,7 @@ nav ul li a {
   .clear{
       width: 100%;
       height: auto;
-      background-color: #515A47;
+      background-color: #FFF6EB;
   }
 
   h1{
@@ -537,6 +537,34 @@ nav ul li.active a, nav ul li a:hover{
 }
 
 
+
+
+/* BUSINESSES */
+
+.wrapper {
+    display: block;
+    width: 50%;
+    background: #f8d387;
+    color: #515A47;
+    margin: 0 auto;
+}
+
+#businesses {
+    display: block;
+    width: 100%;
+    background: #f8d387;
+    margin: 0 auto;
+    margin-top: 20rem;
+}
+
+.BusinessSpace {
+    width: 30rem;
+    background: #515A47;
+    color: #f8d387;
+    font-family: 'Martel', serif;
+    margin: 2rem;
+    padding: 2rem;
+}
 
 
 

@@ -55,7 +55,13 @@
     "Website": "https://www.facebook.com/ZPBurgerHouse",
     "Logo": "zp.png",
     "FeatureImage": "zpf.png"
+},
+{
+    "BusinessName": "Hidden Valley",
+    "ContactNumber": "Unavailable",
+    "Website": "https://www.facebook.com/pages/Hidden%20Valley%20Springs/233934213787446/",
+    "Logo": "placeholder.png",
+    "FeatureImage": "hiddenf.png"
 }
-
 ]
 }
