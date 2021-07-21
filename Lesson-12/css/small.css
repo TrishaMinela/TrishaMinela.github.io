@@ -474,7 +474,7 @@ nav ul li.active a, nav ul li a:hover{
     border-color: #FFF6EB;
 }
 
-.fullname, .company-name, .email, .street, .phone, .website, .job-title, .description, .membership-level option, .membership-level{
+.fullname, .company-name, .email, .street, .phone, .website, .job-title, .description, .membership-level option, .membership-level, .Chamber, .address{
     border: none;
     border-radius: 0;
     box-shadow: none;
