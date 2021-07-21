@@ -182,6 +182,13 @@ nav ul li.active a, nav ul li a:hover{
 
 /* HERO */
 
+.join-background {
+    position: relative;
+    background-image: url("../images/municipal.png");
+    background-size:auto;
+    height: 450px;
+    opacity: 80%;
+}
 .top-home {
     position:relative;
     background-image: url("../images/homesmall.jpg");
@@ -208,6 +215,21 @@ nav ul li.active a, nav ul li a:hover{
     text-align: center;
     font-weight: 900;
 
+}
+
+.title-join {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    line-height: 4rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 5rem;
+    color: black;
+    margin: 0 auto;
+    background: #f8d387;
+    padding: 2rem;
 }
 
 .call-to-action h1 {
@@ -254,7 +276,7 @@ nav ul li.active a, nav ul li a:hover{
     margin: 0 auto;
 }
 
-.company-one, .company-two, .company-three {
+.company-one, .company-two, .company-three, .small-business, .chamber {
     background: #eeb849;
     margin-top: 2rem;
     padding: 1rem;
@@ -262,6 +284,10 @@ nav ul li.active a, nav ul li a:hover{
     align-content: center !important;
 }
 
+.member {
+    width: 60%;
+    margin: 0 auto;
+}
 
 .companies-home p {
     margin: 0 auto;
@@ -314,6 +340,10 @@ nav ul li.active a, nav ul li a:hover{
 }
 
 
+/* MEMBER */
+
+.small-business 
+
 /* PURPOSE */
 
 .purpose {
@@ -357,7 +387,7 @@ nav ul li.active a, nav ul li a:hover{
 
 /* ABOUT */
 
-.info-calauan, .events-calauan {
+.info-calauan, .events-calauan, .join {
     width: 100%;
     background: #f8d387;
     margin-top: 2rem;

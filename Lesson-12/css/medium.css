@@ -190,12 +190,19 @@ li a.active, li a:hover {
     grid-gap: 2rem;
 }
 
-.companies, .companies-home h2 {
+.companies, .companies-home h2 , .small-business, .chamber {
     color: #515A47;
     display: block;
     text-align: center;
 }
 
+.member {
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    height: 10rem;
+}
 .company-one {
     grid-column: 1/2;
 } 
