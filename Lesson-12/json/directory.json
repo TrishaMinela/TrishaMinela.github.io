@@ -1,4 +1,6 @@
-[{
+{
+    "businesses":
+    [{
     "BusinessName": "TJZED Cafe",
     "ContactNumber": "0998 999 2361",
     "Website": "https://www.facebook.com/tjzedcafe/",
@@ -56,3 +58,4 @@
 }
 
 ]
+}
