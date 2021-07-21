@@ -214,18 +214,18 @@ nav ul li.active a, nav ul li a:hover{
     left: 40%;
     text-align: center;
     font-weight: 900;
-
+   
 }
 
 .title-join {
     position: absolute;
     top: 40%;
-    left: 30%;
+    left: 35%;
     line-height: 4rem;
     text-align: center;
     font-weight: 900;
     font-family: 'Encode Sans SC', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     color: black;
     margin: 0 auto;
     background: #f8d387;
@@ -284,11 +284,26 @@ nav ul li.active a, nav ul li a:hover{
     align-content: center !important;
 }
 
+.small-business{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem !important;
+    
+}
+
+.chamber p, .small-business p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .member {
     width: 60%;
     margin: 0 auto;
 }
 
+.chamber, .small-business {
+    margin: 0;
+}
 .companies-home p {
     margin: 0 auto;
     text-align: left;
@@ -387,13 +402,18 @@ nav ul li.active a, nav ul li a:hover{
 
 /* ABOUT */
 
-.info-calauan, .events-calauan, .join {
+.info-calauan, .events-calauan, .background-member {
     width: 100%;
+    height: auto;
     background: #f8d387;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
+    padding-top: 2rem;
 }
+
+
+
 .about, .history, .demographics, .known, .calauan-events {
     display: block;
     width: 70%;
@@ -417,6 +437,71 @@ nav ul li.active a, nav ul li a:hover{
     height: 150px;
     padding-top: 10px;
 }
+
+
+/* SIGN UP */
+.button {
+    font-weight: bold;
+    color: #FFF6EB;
+    background: #515A47;
+    padding: 15px 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+
+/* MODAL */
+
+
+.close {
+    color: black;
+    transform: scale(1.2)
+}
+
+.modal-content1, .modal-content2 {
+    font-weight: bold;
+    background: #515A47;
+}
+
+.form-control {
+    margin: 1rem 0;
+}
+
+.form-control:hover, .form-control:focus {
+    box-shadow: none;
+    border-color: #FFF6EB;
+}
+
+.fullname, .company-name, .email, .street, .phone, .website, .job-title {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2.5px solid #95B46A;
+    padding-left: 0;
+    font-weight: normal;
+    background: transparent;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #f8d387;
+}
+
+.submit {
+    padding: 6px 20px;
+    background: none;
+    color: #FFF6EB;
+    border: 2px solid #FFF6EB;
+    font-weight: bold;
+    transition: all .5s;
+    margin-top: 1rem;
+}
+
+.submit:hover {
+    background: #515A47;
+    color: #f8d387;
+}
+
 
 /* FOOTER */
 

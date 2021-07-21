@@ -196,12 +196,19 @@ li a.active, li a:hover {
     text-align: center;
 }
 
+.chamber {
+    margin-bottom: 2rem !important;
+}
+
+.background-member {
+    padding-bottom: 0;
+}
+
 .member {
     display: grid;
     width: 60%;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
-    height: 10rem;
 }
 .company-one {
     grid-column: 1/2;
