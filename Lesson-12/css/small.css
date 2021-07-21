@@ -474,7 +474,7 @@ nav ul li.active a, nav ul li a:hover{
     border-color: #FFF6EB;
 }
 
-.fullname, .company-name, .email, .street, .phone, .website, .job-title {
+.fullname, .company-name, .email, .street, .phone, .website, .job-title, .description, .membership-level option, .membership-level{
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -516,6 +516,16 @@ nav ul li.active a, nav ul li a:hover{
     padding: 2rem;
 }
 
+.membership-level {
+    width: 100%;
+}
+
+.membership-level option, select {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #f8d387;
+    background: #515A47;
+}
 .form h3 {
     display: block;
     text-align: left;
