@@ -410,6 +410,7 @@ footer {
     margin: 0 auto;
     width: 100%;
     background: #95B46A;
+    padding-bottom: 1rem;
 }
 footer p, footer a{
     color: #515A47;
