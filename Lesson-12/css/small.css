@@ -448,6 +448,7 @@ nav ul li.active a, nav ul li a:hover{
     margin: 0 auto;
     position: relative;
     top: 50%;
+    font-size: 2rem;
 }
 
 
@@ -498,12 +499,34 @@ nav ul li.active a, nav ul li a:hover{
 }
 
 .submit:hover {
-    background: #515A47;
-    color: #f8d387;
+    background: #FFF6EB;
+    color: black;
 }
 
 
-/* FOOTER */
+/* FORM */
+.form {
+    width: 50%;
+    margin: 0 auto;
+    background: #515A47;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 2rem;
+}
+
+.form h3 {
+    display: block;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.form input {
+    width: 100%;
+}
+
+
 
 
 
