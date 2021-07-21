@@ -395,6 +395,16 @@ nav ul li.active a, nav ul li a:hover{
 
 
 /* CONTACT */
+.board {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.director-one, .director-two, .director-three {
+    width: 220px;
+    background: #3a3d36;
+}
 .contact {
     padding-top: 10px;
     margin-top: 2rem;
@@ -419,6 +429,42 @@ footer p, footer a{
     text-align: center;
 }
 
+.contact-info {
+    width: 100%;
+    background: #f8d387;
+    color: #515A47;
+}
+
+.contact-details {
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0 auto;
+    background: #f8d387;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.contact-details h1 {
+    color:#3a3d36;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-details p {
+    color: #3a3d36;
+    font-family: 'Martel', serif;
+    text-align: center;
+}
+.map {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 410px;
+    border: 5px solid #515A47;
+
+}
 
 
 /* ABOUT */
@@ -489,7 +535,7 @@ footer p, footer a{
     transform: scale(1.2)
 }
 
-.modal-content1, .modal-content2 {
+.modal-content1, .modal-content2{
     font-weight: bold;
     background: #515A47;
 }
@@ -503,7 +549,7 @@ footer p, footer a{
     border-color: #FFF6EB;
 }
 
-.fullname, .company-name, .email, .street, .phone, .website, .job-title, .description, .membership-level option, .membership-level, .Chamber, .address{
+.fullname, .company-name, .email, .street, .phone, .comment, .website, .job-title, .description, .membership-level option, .membership-level, .Chamber, .address{
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -534,7 +580,7 @@ footer p, footer a{
 
 
 /* FORM */
-.form {
+.form , .contact-us{
     width: 50%;
     margin: 0 auto;
     background: #515A47;
@@ -545,6 +591,11 @@ footer p, footer a{
     padding: 2rem;
 }
 
+.contact-us textarea {
+    width: 100%;
+    color: #f8d387;
+    height: 5rem;
+}
 .membership-level {
     width: 100%;
 }
@@ -561,7 +612,7 @@ footer p, footer a{
     font-size: 3rem;
 }
 
-.form input {
+.form input, .contact-us input{
     width: 100%;
 }
 
