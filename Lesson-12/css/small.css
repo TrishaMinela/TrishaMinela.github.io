@@ -397,13 +397,25 @@ nav ul li.active a, nav ul li a:hover{
 /* CONTACT */
 .board {
     display: block;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
-.director-one, .director-two, .director-three {
-    width: 220px;
+.board h2 {
+    text-align: center;
+}
+
+.board p {
+    text-align: center;
+    padding-top: 1rem;
+}
+.director-one, .director-two, .director-three, .director-four, .director-five, .director-six {
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
     background: #3a3d36;
+    padding: 3rem;
+    margin-bottom:1rem;
 }
 .contact {
     padding-top: 10px;
@@ -456,6 +468,7 @@ footer p, footer a{
     color: #3a3d36;
     font-family: 'Martel', serif;
     text-align: center;
+    font-size: 1rem;
 }
 .map {
     margin: 0 auto;
@@ -589,6 +602,11 @@ footer p, footer a{
     padding-left: 1rem;
     padding-right: 1rem;
     padding: 2rem;
+}
+
+.contact-us input, .contact-us textarea {
+    width: 70%;
+    font-size: 1rem;
 }
 
 .contact-us textarea {
