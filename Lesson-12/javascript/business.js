@@ -17,7 +17,7 @@ fetch("https://trishaminela.github.io/Lesson-12/json/directory.json")
             let p2 = document.createElement('p');
             p2.className = "p2";
             let logo = document.createElement('img');
-            logo.className = "logo";
+            logo.className = "logos";
             let feature = document.createElement('img');;
             feature.className = "feature";
 
