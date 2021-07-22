@@ -642,9 +642,22 @@ footer p, footer a{
 .wrapper {
     display: block;
     width: 100%;
-    background: #f8d387;
-    color: #515A47;
+    background: #3a3d36;
+    color: white;
     margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+
+button.button {
+    display: block;
+   
+}
+
+.list, .grid{
+    float: left;
+    padding: 1rem;
+    padding-left: 1rem;
 }
 
 #businesses {
@@ -652,6 +665,7 @@ footer p, footer a{
     width: 100%;
     background: #f8d387;
     margin: 0 auto;
+    padding-top: 8rem;
 }
 
 .BusinessSpace {
@@ -659,10 +673,9 @@ footer p, footer a{
     background: #515A47;
     color: #f8d387;
     font-family: 'Martel', serif;
-    margin-top: 2rem;
     padding: 2rem;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .BusinessSpace h2, .BusinessSpace p {
