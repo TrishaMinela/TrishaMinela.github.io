@@ -641,7 +641,7 @@ footer p, footer a{
 
 .wrapper {
     display: block;
-    width: 50%;
+    width: 100%;
     background: #f8d387;
     color: #515A47;
     margin: 0 auto;
@@ -655,7 +655,7 @@ footer p, footer a{
 }
 
 .BusinessSpace {
-    width: 40%;
+    width: 60%;
     background: #515A47;
     color: #f8d387;
     font-family: 'Martel', serif;
@@ -669,8 +669,24 @@ footer p, footer a{
     text-align: center;
 }
 
-.feature, .logos {
-    width: 250px;
+.p2 {
+    display: block;
+    color: white;
+}
+
+.feature {
+    width: 90%;
+    display: block;
+    height: auto;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.logos {
+    display: block;
+    max-width: 100px;
+    width: 50%;
     height: auto;
     margin-top: 1rem;
     margin: 0 auto;

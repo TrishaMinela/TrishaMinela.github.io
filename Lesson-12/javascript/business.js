@@ -27,12 +27,11 @@ fetch("https://trishaminela.github.io/Lesson-12/json/directory.json")
             p1.textContent = `${businesses.ContactNumber}`;
             BusinessSpace.appendChild(p1)
 
-            p2.textContent = `${businesses.Website}`;
-            BusinessSpace.appendChild(p2)
-
             logo.setAttribute('src', businesses.Logo);
+            
             logo.setAttribute('alt', `The logo of: ${businesses.BusinessName}`);
             BusinessSpace.appendChild(logo);
+            BusinessSpace.appendChild(p2)
 
             feature.setAttribute('src', businesses.FeatureImage);
             feature.setAttribute('alt', `The image of: ${businesses.BusinessName}`);
