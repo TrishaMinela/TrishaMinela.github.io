@@ -17,6 +17,7 @@
     header img {
         width: 200px;
         height: auto;
+        background: transparent;
     }
 
     .headingtext h1 {
