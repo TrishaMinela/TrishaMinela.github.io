@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Club Sign-Up</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">FILIPINO CLUB</div>
+        <div class="nav-tabs">
+            <a href="/">Home</a>
+            <a href="/">Officers</a>
+            <a href="/">Activities</a>
+            <a href="/">New Students</a>
+            <a href="/">Gallery</a>
+            <a href="/">Join</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-container">
+            <div class="column-left">
+                <h1>Club Sign-Up Form</h1>
+                <p>Thank you for your interest in joining our club! The membership fee is $8. By signing up, you can look forward to exciting activities, delicious food, and the opportunity to serve the community.</p>
+                <p>We also offer mentorship opportunities to help you make the most of your club experience. Our mentors are here to guide and support you throughout your journey with us.</p>
+            </div>
+            <div class="column-right">
+                <img src="new.png" alt="Club Image" class="hero-image">
+            </div>
+        </div>
+    </div>
+
+    <form action="process_signup.php" method="POST" class="hero-container">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="ethnicity">Ethnicity:</label>
+        <input type="text" id="ethnicity" name="ethnicity" required>
+
+        <label for="student-id">Student ID:</label>
+        <input type="text" id="student-id" name="student_id" required>
+
+        <label for="major">Major:</label>
+        <input type="text" id="major" name="major" required>
+
+        <label for="year">Year/Level:</label>
+        <input type="text" id="year" name="year" required>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
